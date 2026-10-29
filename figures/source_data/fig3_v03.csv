@@ -1,0 +1,23 @@
+parameter,factor,label,stat,value,lo,hi,n,ci_method
+v_endo,construction,"Construction spread (CV), voxel-face layer",median over hearts of between-construction CV,0.025759795151535918,0.022310440643316852,0.028644316790063684,50,percentile cluster bootstrap over hearts
+v_endo,construction,"Construction spread (CV), smooth-surface layer",median over hearts of between-construction CV,0.031159970834675685,0.028041569840746607,0.03683507843654167,50,percentile cluster bootstrap over hearts
+v_endo,torso,"Error from a generic torso,
+reference torso 09, translation",mean over hearts of |ratio - 1|,0.08106720210014265,0.05913303807037513,0.10327973575790322,21,cluster bootstrap over hearts (archived)
+v_endo,torso_median,"Error from a generic torso,
+reference torso 09, translation",median over hearts of |ratio - 1| (descriptive),0.057368868798946794,0.04162927764230897,0.10792076347215535,21,"percentile cluster bootstrap over hearts, computed in this script"
+v_endo,torso,"Error from a generic torso,
+reference torso 17, translation",mean over hearts of |ratio - 1|,0.038535359080241076,0.026757771373926206,0.05167763208516382,21,cluster bootstrap over hearts (archived)
+v_endo,torso_median,"Error from a generic torso,
+reference torso 17, translation",median over hearts of |ratio - 1| (descriptive),0.03298743509906057,0.018786012175710767,0.052026676676636706,21,"percentile cluster bootstrap over hearts, computed in this script"
+v_endo,model_form,Error from simplified physics,|geometric mean ratio - 1| (signed value negative),0.02940398928828425,0.02571333926615149,0.03308065893058143,10,t interval on log ratio over hearts
+v_t,construction,"Construction spread (CV), voxel-face layer",median over hearts of between-construction CV,0.16084238847578092,0.12466061686326829,0.18707976586229297,50,percentile cluster bootstrap over hearts
+v_t,construction,"Construction spread (CV), smooth-surface layer",median over hearts of between-construction CV,0.12972886795523997,0.11994826191302736,0.16219566146458014,50,percentile cluster bootstrap over hearts
+v_t,torso,"Error from a generic torso,
+reference torso 09, translation",mean over hearts of |ratio - 1|,0.1611730895264664,0.11693119057778847,0.20988283625576468,21,cluster bootstrap over hearts (archived)
+v_t,torso_median,"Error from a generic torso,
+reference torso 09, translation",median over hearts of |ratio - 1| (descriptive),0.15739502745312792,0.12063957360217926,0.17270462140654255,21,"percentile cluster bootstrap over hearts, computed in this script"
+v_t,torso,"Error from a generic torso,
+reference torso 17, translation",mean over hearts of |ratio - 1|,0.0895484364534882,0.06656046875407534,0.11880502739136616,21,cluster bootstrap over hearts (archived)
+v_t,torso_median,"Error from a generic torso,
+reference torso 17, translation",median over hearts of |ratio - 1| (descriptive),0.07920781244552506,0.058620770423695734,0.09155995505080239,21,"percentile cluster bootstrap over hearts, computed in this script"
+v_t,model_form,Error from simplified physics,|geometric mean ratio - 1| (signed value negative),0.07070346475067824,0.0498102849312011,0.09113723635298965,10,t interval on log ratio over hearts

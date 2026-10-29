@@ -1,0 +1,15 @@
+factor,parameter,metric,value,ci,n
+"construction (arm C, primary)",v_endo,median over hearts of between-construction CV,0.025759795151535918,"[0.022310440643316852, 0.028644316790063684]",50 hearts
+"construction (arm C, primary)",v_endo,median over hearts of between-construction SD of theta_hat/theta*,0.028367433706329888,"[0.025380703899288183, 0.0373635622922673]",50 hearts
+"torso (arm T, reference 09, translation only)",v_endo,mean absolute relative bias,0.08106720210014265,"[0.05913303807037513, 0.10327973575790322]",21 hearts
+"torso (arm T, reference 09, translation only)",v_endo,mean signed relative bias,-0.042823652522694725,"[-0.07742851058393664, -0.006135885165795608]",21 hearts
+"torso (arm T, reference 17, translation only)",v_endo,mean absolute relative bias,0.038535359080241076,"[0.026757771373926206, 0.05167763208516382]",21 hearts
+"torso (arm T, reference 17, translation only)",v_endo,mean signed relative bias,-0.0087109716047054,"[-0.026686986901186465, 0.011514201555794069]",21 hearts
+"model form (arm F, reaction-eikonal targets, QRS window)",v_endo,geometric-mean theta_hat/theta* minus 1,-0.02940398928828425,"[-0.03308065893058143, -0.02571333926615149]",10 hearts
+"construction (arm C, primary)",v_t,median over hearts of between-construction CV,0.16084238847578092,"[0.12466061686326829, 0.18707976586229297]",50 hearts
+"construction (arm C, primary)",v_t,median over hearts of between-construction SD of theta_hat/theta*,0.18162567046598116,"[0.14615313686494702, 0.21334989333015367]",50 hearts
+"torso (arm T, reference 09, translation only)",v_t,mean absolute relative bias,0.1611730895264664,"[0.11693119057778847, 0.20988283625576468]",21 hearts
+"torso (arm T, reference 09, translation only)",v_t,mean signed relative bias,-0.013802888066316868,"[-0.0923707681310037, 0.06441350410082342]",21 hearts
+"torso (arm T, reference 17, translation only)",v_t,mean absolute relative bias,0.0895484364534882,"[0.06656046875407534, 0.11880502739136616]",21 hearts
+"torso (arm T, reference 17, translation only)",v_t,mean signed relative bias,0.02756829788035788,"[-0.011543885265161122, 0.0694219471750728]",21 hearts
+"model form (arm F, reaction-eikonal targets, QRS window)",v_t,geometric-mean theta_hat/theta* minus 1,-0.07070346475067824,"[-0.09113723635298965, -0.0498102849312011]",10 hearts

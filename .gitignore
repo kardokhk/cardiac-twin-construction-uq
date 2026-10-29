@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+code/gates/seg/src/
+*.h5
+*.nii.gz

@@ -1,0 +1,12 @@
+{
+ "n_rows": 2964,
+ "nan": 0,
+ "censored_by_loss": {
+  "amp": 7,
+  "corr": 26
+ },
+ "ref_recovery_max_abs": {
+  "v_endo": 0.00013053547165808865,
+  "v_t": 0.0002235047610181784
+ }
+}

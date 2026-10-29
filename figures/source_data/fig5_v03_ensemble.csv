@@ -1,0 +1,15 @@
+k,subset,median_cv_over_hearts,n_hearts,ci_low,ci_high
+2,nnunet_task027_acdc+nnunet_task114_mnms,0.10313906899999999,47,,
+2,nnunet_task027_acdc+nnunet_ukb_sax,0.1314574135,47,,
+2,nnunet_task027_acdc+cinema_acdc_sax,0.1125548388,47,,
+2,nnunet_task114_mnms+nnunet_ukb_sax,0.1692781302,47,,
+2,nnunet_task114_mnms+cinema_acdc_sax,0.1192614258,47,,
+2,nnunet_ukb_sax+cinema_acdc_sax,0.1236310176,47,,
+2,mean over subsets (plotted),0.1265536491326026,47,0.10536717449142713,0.1570570255900575
+3,nnunet_task027_acdc+nnunet_task114_mnms+nnunet_ukb_sax,0.1499775797,47,,
+3,nnunet_task027_acdc+nnunet_task114_mnms+cinema_acdc_sax,0.1138687256,47,,
+3,nnunet_task027_acdc+nnunet_ukb_sax+cinema_acdc_sax,0.1372963118,47,,
+3,nnunet_task114_mnms+nnunet_ukb_sax+cinema_acdc_sax,0.1481301476,47,,
+3,mean over subsets (plotted),0.13731819116900645,47,0.12283963913196012,0.1737334752835775
+4,nnunet_task027_acdc+nnunet_task114_mnms+nnunet_ukb_sax+cinema_acdc_sax,0.1400513952,47,,
+4,mean over subsets (plotted),0.1400513952445559,47,0.12468671358341939,0.19154939119878198

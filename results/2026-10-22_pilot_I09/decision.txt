@@ -1,0 +1,28 @@
+cases 300; failed 0
+inverted-tet meshes: [['U001', 2334]]
+
+=== primary pipeline: n_G 200, n_U 100
+TAT Gaussian mean (SD) 55.36 (4.59) ms; uniform 56.06 (7.68) ms
+phenotypes Gaussian mean (SD): LVEDV_mL 149.8 (34.9), LVmass_g 109.3 (25.2), RVEDV_mL 170.2 (41.0)
+phenotypes uniform  mean (SD): LVEDV_mL 151.3 (49.6), LVmass_g 111.4 (38.1), RVEDV_mL 174.3 (62.9)
+OLS beta (intercept, LVEDV, mass, RVEDV): [36.4559, 0.0308, 0.1373, -0.0042]
+R2 Gaussian = 0.895 (95% CI 0.866 to 0.921); KILL-1 (>=0.90): False
+residual SD after linear rule (Gaussian, in-sample) = 1.50 ms; uniform out-of-sample RMS 2.72 ms, mean residual 0.38 ms
+mean shift U-G observed 0.69 ms (95% CI -0.92 to 2.36); predicted 0.32 (95% CI -1.10 to 1.80); inside obs CI: True
+q95 shift U-G observed 4.24 ms (95% CI 1.94 to 5.72); predicted 2.49 (95% CI 0.17 to 4.67); inside obs CI: True
+KILL-2 red-team reading (mean AND q95 inside): True; specification reading (mean inside): True
+supplementary: R2 on LVEDV only 0.861; R2 on 3 phenotypes + modes 1-10 0.948; R2 within uniform arm 0.886
+
+=== secondary pipeline: n_G 200, n_U 100
+TAT Gaussian mean (SD) 160.69 (13.52) ms; uniform 159.29 (20.94) ms
+phenotypes Gaussian mean (SD): LVEDV_mL 149.8 (34.9), LVmass_g 109.3 (25.2), RVEDV_mL 170.2 (41.0)
+phenotypes uniform  mean (SD): LVEDV_mL 151.3 (49.6), LVmass_g 111.4 (38.1), RVEDV_mL 174.3 (62.9)
+OLS beta (intercept, LVEDV, mass, RVEDV): [104.7521, 0.2652, 0.0454, 0.0661]
+R2 Gaussian = 0.916 (95% CI 0.894 to 0.936); KILL-1 (>=0.90): True
+residual SD after linear rule (Gaussian, in-sample) = 3.96 ms; uniform out-of-sample RMS 5.91 ms, mean residual -2.16 ms
+mean shift U-G observed -1.40 ms (95% CI -5.73 to 3.00); predicted 0.76 (95% CI -3.21 to 4.89); inside obs CI: True
+q95 shift U-G observed 6.88 ms (95% CI -0.77 to 14.63); predicted 7.17 (95% CI -0.77 to 13.56); inside obs CI: True
+KILL-2 red-team reading (mean AND q95 inside): True; specification reading (mean inside): True
+supplementary: R2 on LVEDV only 0.907; R2 on 3 phenotypes + modes 1-10 0.981; R2 within uniform arm 0.935
+
+other: median t_total_s 1869.2 max 2972.1 | helix endo/mid/epi median 39.3 17.3 -50.0

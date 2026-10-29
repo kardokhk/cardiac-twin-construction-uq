@@ -1,0 +1,9 @@
+title,body,x_mm,y_mm,w_mm,h_mm
+Heart (n = 50),"ACDC test set, end-diastolic cine CMR, 10 per group: NOR, DCM, HCM, MINF, ARV",1,50.0,33,28
+Constructions S x M,"S: expert labels (reference)    + 4 segmentation networks M: 1.5 mm and 1.0 mm Up to 10 per heart (494 in all) Fast layer: A2 (primary), B1",39,50.0,40,28
+Forward model,"Eikonal activation, fixed rules for fibres and root nodes 8-lead QRS in reference torso (Malik 09), one rigid transform per heart",84,50.0,41,28
+Calibration,"Spline emulator, 9 x 9 log grid, refinement runs; Fit $\theta$ = ($v_\mathrm{endo}$, $v_\mathrm{t}$) Loss: correlation (primary), amplitude (secondary) Output: $\hat{\theta}/\theta^*$ and its CV across constructions",130,50.0,43,28
+Truth draws $\theta^*$,3 per heart (Latin hypercube) Targets simulated on the reference construction,39,26.5,40,17
+Arm N: target noise,"White and 40 Hz band-limited noise, baseline wander, electrode displacement; reference emulator; break-even level against arm C",1,2.0,52,16
+Arm F: model form (10 hearts),"Targets from reaction-eikonal ECGs, calibrated with the eikonal emulator",57,2.0,46,16
+Arm T: torso (22 heart-in-torso models),"Targets in own torso, calibration in reference torso 09 or 17; registration translation only (primary) or ICP",107,2.0,66,16

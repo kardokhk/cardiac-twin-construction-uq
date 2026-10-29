@@ -1,0 +1,1819 @@
+{
+ "completion": {
+  "manifest_included": 737,
+  "calibrated": 27,
+  "missing": [
+   "patient101__cinema_acdc_sax__1.0__rv2.0",
+   "patient101__cinema_acdc_sax__1.0__rv3.0",
+   "patient101__cinema_acdc_sax__1.0__rv4.0",
+   "patient101__cinema_acdc_sax__1.5__rv3.0",
+   "patient101__cinema_acdc_sax__1.5__rv4.0",
+   "patient101__expert__1.0__rv2.0",
+   "patient101__expert__1.0__rv3.0",
+   "patient101__expert__1.0__rv4.0",
+   "patient101__expert__1.5__rv3.0",
+   "patient101__expert__1.5__rv4.0",
+   "patient101__nnunet_task027_acdc__1.0__rv2.0",
+   "patient101__nnunet_task027_acdc__1.0__rv3.0",
+   "patient101__nnunet_task027_acdc__1.0__rv4.0",
+   "patient101__nnunet_task027_acdc__1.5__rv3.0",
+   "patient101__nnunet_task027_acdc__1.5__rv4.0",
+   "patient101__nnunet_task114_mnms__1.0__rv2.0",
+   "patient101__nnunet_task114_mnms__1.0__rv3.0",
+   "patient101__nnunet_task114_mnms__1.0__rv4.0",
+   "patient101__nnunet_task114_mnms__1.5__rv3.0",
+   "patient101__nnunet_task114_mnms__1.5__rv4.0",
+   "patient101__nnunet_ukb_sax__1.0__rv2.0",
+   "patient101__nnunet_ukb_sax__1.0__rv3.0",
+   "patient101__nnunet_ukb_sax__1.0__rv4.0",
+   "patient101__nnunet_ukb_sax__1.5__rv3.0",
+   "patient101__nnunet_ukb_sax__1.5__rv4.0",
+   "patient101__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient101__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient103__cinema_acdc_sax__1.0__rv2.0",
+   "patient103__cinema_acdc_sax__1.0__rv3.0",
+   "patient103__cinema_acdc_sax__1.0__rv4.0",
+   "patient103__cinema_acdc_sax__1.5__rv3.0",
+   "patient103__cinema_acdc_sax__1.5__rv4.0",
+   "patient103__expert__1.0__rv2.0",
+   "patient103__expert__1.0__rv3.0",
+   "patient103__expert__1.0__rv4.0",
+   "patient103__expert__1.5__rv2.0",
+   "patient103__expert__1.5__rv3.0",
+   "patient103__expert__1.5__rv4.0",
+   "patient103__nnunet_task027_acdc__1.0__rv2.0",
+   "patient103__nnunet_task027_acdc__1.0__rv3.0",
+   "patient103__nnunet_task027_acdc__1.0__rv4.0",
+   "patient103__nnunet_task027_acdc__1.5__rv3.0",
+   "patient103__nnunet_task027_acdc__1.5__rv4.0",
+   "patient103__nnunet_task114_mnms__1.0__rv2.0",
+   "patient103__nnunet_task114_mnms__1.0__rv3.0",
+   "patient103__nnunet_task114_mnms__1.0__rv4.0",
+   "patient103__nnunet_task114_mnms__1.5__rv3.0",
+   "patient103__nnunet_task114_mnms__1.5__rv4.0",
+   "patient103__nnunet_ukb_sax__1.0__rv2.0",
+   "patient103__nnunet_ukb_sax__1.0__rv3.0",
+   "patient103__nnunet_ukb_sax__1.0__rv4.0",
+   "patient103__nnunet_ukb_sax__1.5__rv3.0",
+   "patient103__nnunet_ukb_sax__1.5__rv4.0",
+   "patient103__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient103__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient104__cinema_acdc_sax__1.0__rv2.0",
+   "patient104__cinema_acdc_sax__1.0__rv3.0",
+   "patient104__cinema_acdc_sax__1.0__rv4.0",
+   "patient104__cinema_acdc_sax__1.5__rv3.0",
+   "patient104__cinema_acdc_sax__1.5__rv4.0",
+   "patient104__expert__1.0__rv2.0",
+   "patient104__expert__1.0__rv3.0",
+   "patient104__expert__1.0__rv4.0",
+   "patient104__expert__1.5__rv3.0",
+   "patient104__expert__1.5__rv4.0",
+   "patient104__nnunet_task027_acdc__1.0__rv2.0",
+   "patient104__nnunet_task027_acdc__1.0__rv3.0",
+   "patient104__nnunet_task027_acdc__1.0__rv4.0",
+   "patient104__nnunet_task027_acdc__1.5__rv3.0",
+   "patient104__nnunet_task027_acdc__1.5__rv4.0",
+   "patient104__nnunet_task114_mnms__1.0__rv2.0",
+   "patient104__nnunet_task114_mnms__1.0__rv3.0",
+   "patient104__nnunet_task114_mnms__1.0__rv4.0",
+   "patient104__nnunet_task114_mnms__1.5__rv3.0",
+   "patient104__nnunet_task114_mnms__1.5__rv4.0",
+   "patient104__nnunet_ukb_sax__1.0__rv2.0",
+   "patient104__nnunet_ukb_sax__1.0__rv3.0",
+   "patient104__nnunet_ukb_sax__1.0__rv4.0",
+   "patient104__nnunet_ukb_sax__1.5__rv3.0",
+   "patient104__nnunet_ukb_sax__1.5__rv4.0",
+   "patient104__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient104__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient105__cinema_acdc_sax__1.0__rv2.0",
+   "patient105__cinema_acdc_sax__1.0__rv3.0",
+   "patient105__cinema_acdc_sax__1.0__rv4.0",
+   "patient105__cinema_acdc_sax__1.5__rv3.0",
+   "patient105__cinema_acdc_sax__1.5__rv4.0",
+   "patient105__expert__1.0__rv2.0",
+   "patient105__expert__1.0__rv3.0",
+   "patient105__expert__1.0__rv4.0",
+   "patient105__expert__1.5__rv3.0",
+   "patient105__expert__1.5__rv4.0",
+   "patient105__nnunet_task027_acdc__1.0__rv2.0",
+   "patient105__nnunet_task027_acdc__1.0__rv3.0",
+   "patient105__nnunet_task027_acdc__1.0__rv4.0",
+   "patient105__nnunet_task027_acdc__1.5__rv3.0",
+   "patient105__nnunet_task027_acdc__1.5__rv4.0",
+   "patient105__nnunet_task114_mnms__1.0__rv2.0",
+   "patient105__nnunet_task114_mnms__1.0__rv3.0",
+   "patient105__nnunet_task114_mnms__1.0__rv4.0",
+   "patient105__nnunet_task114_mnms__1.5__rv3.0",
+   "patient105__nnunet_task114_mnms__1.5__rv4.0",
+   "patient105__nnunet_ukb_sax__1.0__rv2.0",
+   "patient105__nnunet_ukb_sax__1.0__rv3.0",
+   "patient105__nnunet_ukb_sax__1.0__rv4.0",
+   "patient105__nnunet_ukb_sax__1.5__rv3.0",
+   "patient105__nnunet_ukb_sax__1.5__rv4.0",
+   "patient105__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient105__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient106__cinema_acdc_sax__1.0__rv2.0",
+   "patient106__cinema_acdc_sax__1.0__rv3.0",
+   "patient106__cinema_acdc_sax__1.0__rv4.0",
+   "patient106__cinema_acdc_sax__1.5__rv3.0",
+   "patient106__cinema_acdc_sax__1.5__rv4.0",
+   "patient106__expert__1.0__rv2.0",
+   "patient106__expert__1.0__rv3.0",
+   "patient106__expert__1.0__rv4.0",
+   "patient106__expert__1.5__rv3.0",
+   "patient106__expert__1.5__rv4.0",
+   "patient106__nnunet_task027_acdc__1.0__rv2.0",
+   "patient106__nnunet_task027_acdc__1.0__rv3.0",
+   "patient106__nnunet_task027_acdc__1.0__rv4.0",
+   "patient106__nnunet_task027_acdc__1.5__rv3.0",
+   "patient106__nnunet_task027_acdc__1.5__rv4.0",
+   "patient106__nnunet_task114_mnms__1.0__rv2.0",
+   "patient106__nnunet_task114_mnms__1.0__rv3.0",
+   "patient106__nnunet_task114_mnms__1.0__rv4.0",
+   "patient106__nnunet_task114_mnms__1.5__rv3.0",
+   "patient106__nnunet_task114_mnms__1.5__rv4.0",
+   "patient106__nnunet_ukb_sax__1.0__rv2.0",
+   "patient106__nnunet_ukb_sax__1.0__rv3.0",
+   "patient106__nnunet_ukb_sax__1.0__rv4.0",
+   "patient106__nnunet_ukb_sax__1.5__rv3.0",
+   "patient106__nnunet_ukb_sax__1.5__rv4.0",
+   "patient106__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient106__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient107__cinema_acdc_sax__1.0__rv2.0",
+   "patient107__cinema_acdc_sax__1.0__rv3.0",
+   "patient107__cinema_acdc_sax__1.0__rv4.0",
+   "patient107__cinema_acdc_sax__1.5__rv3.0",
+   "patient107__cinema_acdc_sax__1.5__rv4.0",
+   "patient107__expert__1.0__rv2.0",
+   "patient107__expert__1.0__rv3.0",
+   "patient107__expert__1.0__rv4.0",
+   "patient107__expert__1.5__rv3.0",
+   "patient107__expert__1.5__rv4.0",
+   "patient107__nnunet_task027_acdc__1.0__rv2.0",
+   "patient107__nnunet_task027_acdc__1.0__rv3.0",
+   "patient107__nnunet_task027_acdc__1.0__rv4.0",
+   "patient107__nnunet_task027_acdc__1.5__rv3.0",
+   "patient107__nnunet_task027_acdc__1.5__rv4.0",
+   "patient107__nnunet_task114_mnms__1.0__rv2.0",
+   "patient107__nnunet_task114_mnms__1.0__rv3.0",
+   "patient107__nnunet_task114_mnms__1.0__rv4.0",
+   "patient107__nnunet_task114_mnms__1.5__rv3.0",
+   "patient107__nnunet_task114_mnms__1.5__rv4.0",
+   "patient107__nnunet_ukb_sax__1.0__rv2.0",
+   "patient107__nnunet_ukb_sax__1.0__rv3.0",
+   "patient107__nnunet_ukb_sax__1.0__rv4.0",
+   "patient107__nnunet_ukb_sax__1.5__rv3.0",
+   "patient107__nnunet_ukb_sax__1.5__rv4.0",
+   "patient107__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient107__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient108__cinema_acdc_sax__1.0__rv3.0",
+   "patient108__cinema_acdc_sax__1.5__rv3.0",
+   "patient108__expert__1.0__rv3.0",
+   "patient108__expert__1.5__rv3.0",
+   "patient108__nnunet_task027_acdc__1.0__rv3.0",
+   "patient108__nnunet_task027_acdc__1.5__rv3.0",
+   "patient108__nnunet_task114_mnms__1.0__rv3.0",
+   "patient108__nnunet_task114_mnms__1.5__rv3.0",
+   "patient108__nnunet_ukb_sax__1.0__rv3.0",
+   "patient108__nnunet_ukb_sax__1.5__rv3.0",
+   "patient108__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient108__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient109__cinema_acdc_sax__1.0__rv2.0",
+   "patient109__cinema_acdc_sax__1.0__rv3.0",
+   "patient109__cinema_acdc_sax__1.0__rv4.0",
+   "patient109__cinema_acdc_sax__1.5__rv3.0",
+   "patient109__cinema_acdc_sax__1.5__rv4.0",
+   "patient109__expert__1.0__rv2.0",
+   "patient109__expert__1.0__rv3.0",
+   "patient109__expert__1.0__rv4.0",
+   "patient109__expert__1.5__rv3.0",
+   "patient109__expert__1.5__rv4.0",
+   "patient109__nnunet_task027_acdc__1.0__rv2.0",
+   "patient109__nnunet_task027_acdc__1.0__rv3.0",
+   "patient109__nnunet_task027_acdc__1.0__rv4.0",
+   "patient109__nnunet_task027_acdc__1.5__rv3.0",
+   "patient109__nnunet_task027_acdc__1.5__rv4.0",
+   "patient109__nnunet_task114_mnms__1.0__rv2.0",
+   "patient109__nnunet_task114_mnms__1.0__rv3.0",
+   "patient109__nnunet_task114_mnms__1.0__rv4.0",
+   "patient109__nnunet_task114_mnms__1.5__rv3.0",
+   "patient109__nnunet_task114_mnms__1.5__rv4.0",
+   "patient109__nnunet_ukb_sax__1.0__rv2.0",
+   "patient109__nnunet_ukb_sax__1.0__rv3.0",
+   "patient109__nnunet_ukb_sax__1.0__rv4.0",
+   "patient109__nnunet_ukb_sax__1.5__rv3.0",
+   "patient109__nnunet_ukb_sax__1.5__rv4.0",
+   "patient109__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient109__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient110__cinema_acdc_sax__1.0__rv3.0",
+   "patient110__cinema_acdc_sax__1.5__rv3.0",
+   "patient110__expert__1.0__rv3.0",
+   "patient110__expert__1.5__rv3.0",
+   "patient110__nnunet_task027_acdc__1.0__rv3.0",
+   "patient110__nnunet_task027_acdc__1.5__rv3.0",
+   "patient110__nnunet_task114_mnms__1.0__rv3.0",
+   "patient110__nnunet_task114_mnms__1.5__rv3.0",
+   "patient110__nnunet_ukb_sax__1.0__rv3.0",
+   "patient110__nnunet_ukb_sax__1.5__rv3.0",
+   "patient110__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient110__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient111__cinema_acdc_sax__1.0__rv3.0",
+   "patient111__cinema_acdc_sax__1.5__rv3.0",
+   "patient111__expert__1.0__rv3.0",
+   "patient111__expert__1.5__rv3.0",
+   "patient111__nnunet_task027_acdc__1.0__rv3.0",
+   "patient111__nnunet_task027_acdc__1.5__rv3.0",
+   "patient111__nnunet_task114_mnms__1.0__rv3.0",
+   "patient111__nnunet_task114_mnms__1.5__rv3.0",
+   "patient111__nnunet_ukb_sax__1.0__rv3.0",
+   "patient111__nnunet_ukb_sax__1.5__rv3.0",
+   "patient111__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient111__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient112__cinema_acdc_sax__1.0__rv2.0",
+   "patient112__cinema_acdc_sax__1.0__rv3.0",
+   "patient112__cinema_acdc_sax__1.0__rv4.0",
+   "patient112__cinema_acdc_sax__1.5__rv3.0",
+   "patient112__cinema_acdc_sax__1.5__rv4.0",
+   "patient112__expert__1.0__rv2.0",
+   "patient112__expert__1.0__rv3.0",
+   "patient112__expert__1.0__rv4.0",
+   "patient112__expert__1.5__rv3.0",
+   "patient112__expert__1.5__rv4.0",
+   "patient112__nnunet_task027_acdc__1.0__rv2.0",
+   "patient112__nnunet_task027_acdc__1.0__rv3.0",
+   "patient112__nnunet_task027_acdc__1.0__rv4.0",
+   "patient112__nnunet_task027_acdc__1.5__rv3.0",
+   "patient112__nnunet_task027_acdc__1.5__rv4.0",
+   "patient112__nnunet_task114_mnms__1.0__rv2.0",
+   "patient112__nnunet_task114_mnms__1.0__rv3.0",
+   "patient112__nnunet_task114_mnms__1.0__rv4.0",
+   "patient112__nnunet_task114_mnms__1.5__rv3.0",
+   "patient112__nnunet_task114_mnms__1.5__rv4.0",
+   "patient112__nnunet_ukb_sax__1.0__rv2.0",
+   "patient112__nnunet_ukb_sax__1.0__rv3.0",
+   "patient112__nnunet_ukb_sax__1.0__rv4.0",
+   "patient112__nnunet_ukb_sax__1.5__rv3.0",
+   "patient112__nnunet_ukb_sax__1.5__rv4.0",
+   "patient112__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient112__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient113__cinema_acdc_sax__1.0__rv3.0",
+   "patient113__cinema_acdc_sax__1.5__rv3.0",
+   "patient113__expert__1.0__rv3.0",
+   "patient113__expert__1.5__rv3.0",
+   "patient113__nnunet_task027_acdc__1.0__rv3.0",
+   "patient113__nnunet_task027_acdc__1.5__rv3.0",
+   "patient113__nnunet_task114_mnms__1.0__rv3.0",
+   "patient113__nnunet_task114_mnms__1.5__rv3.0",
+   "patient113__nnunet_ukb_sax__1.0__rv3.0",
+   "patient113__nnunet_ukb_sax__1.5__rv3.0",
+   "patient113__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient113__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient114__cinema_acdc_sax__1.0__rv3.0",
+   "patient114__cinema_acdc_sax__1.5__rv3.0",
+   "patient114__expert__1.0__rv3.0",
+   "patient114__expert__1.5__rv3.0",
+   "patient114__nnunet_task027_acdc__1.0__rv3.0",
+   "patient114__nnunet_task027_acdc__1.5__rv3.0",
+   "patient114__nnunet_task114_mnms__1.0__rv3.0",
+   "patient114__nnunet_task114_mnms__1.5__rv3.0",
+   "patient114__nnunet_ukb_sax__1.0__rv3.0",
+   "patient114__nnunet_ukb_sax__1.5__rv3.0",
+   "patient115__cinema_acdc_sax__1.0__rv3.0",
+   "patient115__cinema_acdc_sax__1.5__rv3.0",
+   "patient115__expert__1.0__rv3.0",
+   "patient115__expert__1.5__rv3.0",
+   "patient115__nnunet_task027_acdc__1.0__rv3.0",
+   "patient115__nnunet_task027_acdc__1.5__rv3.0",
+   "patient115__nnunet_task114_mnms__1.0__rv3.0",
+   "patient115__nnunet_task114_mnms__1.5__rv3.0",
+   "patient115__nnunet_ukb_sax__1.0__rv3.0",
+   "patient115__nnunet_ukb_sax__1.5__rv3.0",
+   "patient115__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient115__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient116__cinema_acdc_sax__1.0__rv3.0",
+   "patient116__cinema_acdc_sax__1.5__rv3.0",
+   "patient116__expert__1.0__rv3.0",
+   "patient116__expert__1.5__rv3.0",
+   "patient116__nnunet_task027_acdc__1.0__rv3.0",
+   "patient116__nnunet_task027_acdc__1.5__rv3.0",
+   "patient116__nnunet_task114_mnms__1.0__rv3.0",
+   "patient116__nnunet_task114_mnms__1.5__rv3.0",
+   "patient116__nnunet_ukb_sax__1.0__rv3.0",
+   "patient116__nnunet_ukb_sax__1.5__rv3.0",
+   "patient116__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient116__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient117__cinema_acdc_sax__1.0__rv3.0",
+   "patient117__cinema_acdc_sax__1.5__rv3.0",
+   "patient117__expert__1.0__rv3.0",
+   "patient117__expert__1.5__rv3.0",
+   "patient117__nnunet_task027_acdc__1.0__rv3.0",
+   "patient117__nnunet_task027_acdc__1.5__rv3.0",
+   "patient117__nnunet_task114_mnms__1.0__rv3.0",
+   "patient117__nnunet_task114_mnms__1.5__rv3.0",
+   "patient117__nnunet_ukb_sax__1.0__rv3.0",
+   "patient117__nnunet_ukb_sax__1.5__rv3.0",
+   "patient117__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient117__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient118__cinema_acdc_sax__1.0__rv3.0",
+   "patient118__cinema_acdc_sax__1.5__rv3.0",
+   "patient118__expert__1.0__rv3.0",
+   "patient118__expert__1.5__rv3.0",
+   "patient118__nnunet_task027_acdc__1.0__rv3.0",
+   "patient118__nnunet_task027_acdc__1.5__rv3.0",
+   "patient118__nnunet_task114_mnms__1.0__rv3.0",
+   "patient118__nnunet_task114_mnms__1.5__rv3.0",
+   "patient118__nnunet_ukb_sax__1.0__rv3.0",
+   "patient118__nnunet_ukb_sax__1.5__rv3.0",
+   "patient118__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient118__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient119__cinema_acdc_sax__1.0__rv2.0",
+   "patient119__cinema_acdc_sax__1.0__rv3.0",
+   "patient119__cinema_acdc_sax__1.0__rv4.0",
+   "patient119__cinema_acdc_sax__1.5__rv3.0",
+   "patient119__cinema_acdc_sax__1.5__rv4.0",
+   "patient119__expert__1.0__rv2.0",
+   "patient119__expert__1.0__rv3.0",
+   "patient119__expert__1.0__rv4.0",
+   "patient119__expert__1.5__rv3.0",
+   "patient119__expert__1.5__rv4.0",
+   "patient119__nnunet_task027_acdc__1.0__rv2.0",
+   "patient119__nnunet_task027_acdc__1.0__rv3.0",
+   "patient119__nnunet_task027_acdc__1.0__rv4.0",
+   "patient119__nnunet_task027_acdc__1.5__rv3.0",
+   "patient119__nnunet_task027_acdc__1.5__rv4.0",
+   "patient119__nnunet_task114_mnms__1.0__rv2.0",
+   "patient119__nnunet_task114_mnms__1.0__rv3.0",
+   "patient119__nnunet_task114_mnms__1.0__rv4.0",
+   "patient119__nnunet_task114_mnms__1.5__rv3.0",
+   "patient119__nnunet_task114_mnms__1.5__rv4.0",
+   "patient119__nnunet_ukb_sax__1.0__rv2.0",
+   "patient119__nnunet_ukb_sax__1.0__rv3.0",
+   "patient119__nnunet_ukb_sax__1.0__rv4.0",
+   "patient119__nnunet_ukb_sax__1.5__rv3.0",
+   "patient119__nnunet_ukb_sax__1.5__rv4.0",
+   "patient119__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient119__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient120__cinema_acdc_sax__1.0__rv3.0",
+   "patient120__cinema_acdc_sax__1.5__rv3.0",
+   "patient120__expert__1.0__rv3.0",
+   "patient120__expert__1.5__rv3.0",
+   "patient120__nnunet_task027_acdc__1.0__rv3.0",
+   "patient120__nnunet_task027_acdc__1.5__rv3.0",
+   "patient120__nnunet_task114_mnms__1.0__rv3.0",
+   "patient120__nnunet_task114_mnms__1.5__rv3.0",
+   "patient120__nnunet_ukb_sax__1.0__rv3.0",
+   "patient120__nnunet_ukb_sax__1.5__rv3.0",
+   "patient120__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient120__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient121__cinema_acdc_sax__1.0__rv3.0",
+   "patient121__cinema_acdc_sax__1.5__rv3.0",
+   "patient121__expert__1.0__rv3.0",
+   "patient121__expert__1.5__rv3.0",
+   "patient121__nnunet_task027_acdc__1.0__rv3.0",
+   "patient121__nnunet_task027_acdc__1.5__rv3.0",
+   "patient121__nnunet_task114_mnms__1.0__rv3.0",
+   "patient121__nnunet_task114_mnms__1.5__rv3.0",
+   "patient121__nnunet_ukb_sax__1.0__rv3.0",
+   "patient121__nnunet_ukb_sax__1.5__rv3.0",
+   "patient122__cinema_acdc_sax__1.0__rv3.0",
+   "patient122__cinema_acdc_sax__1.5__rv3.0",
+   "patient122__expert__1.0__rv3.0",
+   "patient122__expert__1.5__rv3.0",
+   "patient122__nnunet_task027_acdc__1.0__rv3.0",
+   "patient122__nnunet_task027_acdc__1.5__rv3.0",
+   "patient122__nnunet_task114_mnms__1.0__rv3.0",
+   "patient122__nnunet_task114_mnms__1.5__rv3.0",
+   "patient122__nnunet_ukb_sax__1.0__rv3.0",
+   "patient122__nnunet_ukb_sax__1.5__rv3.0",
+   "patient122__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient122__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient123__cinema_acdc_sax__1.0__rv3.0",
+   "patient123__cinema_acdc_sax__1.5__rv3.0",
+   "patient123__expert__1.0__rv3.0",
+   "patient123__expert__1.5__rv3.0",
+   "patient123__nnunet_task027_acdc__1.0__rv3.0",
+   "patient123__nnunet_task027_acdc__1.5__rv3.0",
+   "patient123__nnunet_task114_mnms__1.0__rv3.0",
+   "patient123__nnunet_task114_mnms__1.5__rv3.0",
+   "patient123__nnunet_ukb_sax__1.0__rv3.0",
+   "patient123__nnunet_ukb_sax__1.5__rv3.0",
+   "patient123__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient123__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient124__cinema_acdc_sax__1.0__rv3.0",
+   "patient124__cinema_acdc_sax__1.5__rv3.0",
+   "patient124__expert__1.0__rv3.0",
+   "patient124__expert__1.5__rv3.0",
+   "patient124__nnunet_task027_acdc__1.0__rv3.0",
+   "patient124__nnunet_task027_acdc__1.5__rv3.0",
+   "patient124__nnunet_task114_mnms__1.0__rv3.0",
+   "patient124__nnunet_task114_mnms__1.5__rv3.0",
+   "patient124__nnunet_ukb_sax__1.0__rv3.0",
+   "patient124__nnunet_ukb_sax__1.5__rv3.0",
+   "patient125__cinema_acdc_sax__1.0__rv3.0",
+   "patient125__cinema_acdc_sax__1.5__rv3.0",
+   "patient125__expert__1.0__rv3.0",
+   "patient125__expert__1.5__rv3.0",
+   "patient125__nnunet_task027_acdc__1.0__rv3.0",
+   "patient125__nnunet_task027_acdc__1.5__rv3.0",
+   "patient125__nnunet_task114_mnms__1.0__rv3.0",
+   "patient125__nnunet_task114_mnms__1.5__rv3.0",
+   "patient125__nnunet_ukb_sax__1.0__rv3.0",
+   "patient125__nnunet_ukb_sax__1.5__rv3.0",
+   "patient126__cinema_acdc_sax__1.0__rv3.0",
+   "patient126__cinema_acdc_sax__1.5__rv3.0",
+   "patient126__expert__1.0__rv3.0",
+   "patient126__expert__1.5__rv3.0",
+   "patient126__nnunet_task027_acdc__1.0__rv3.0",
+   "patient126__nnunet_task027_acdc__1.5__rv3.0",
+   "patient126__nnunet_task114_mnms__1.0__rv3.0",
+   "patient126__nnunet_task114_mnms__1.5__rv3.0",
+   "patient126__nnunet_ukb_sax__1.0__rv3.0",
+   "patient126__nnunet_ukb_sax__1.5__rv3.0",
+   "patient126__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient126__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient127__cinema_acdc_sax__1.0__rv3.0",
+   "patient127__cinema_acdc_sax__1.5__rv3.0",
+   "patient127__expert__1.0__rv3.0",
+   "patient127__expert__1.5__rv3.0",
+   "patient127__nnunet_task027_acdc__1.0__rv3.0",
+   "patient127__nnunet_task027_acdc__1.5__rv3.0",
+   "patient127__nnunet_task114_mnms__1.0__rv3.0",
+   "patient127__nnunet_task114_mnms__1.5__rv3.0",
+   "patient127__nnunet_ukb_sax__1.0__rv3.0",
+   "patient127__nnunet_ukb_sax__1.5__rv3.0",
+   "patient127__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient127__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient128__cinema_acdc_sax__1.0__rv3.0",
+   "patient128__cinema_acdc_sax__1.5__rv3.0",
+   "patient128__expert__1.0__rv3.0",
+   "patient128__expert__1.5__rv3.0",
+   "patient128__nnunet_task027_acdc__1.0__rv3.0",
+   "patient128__nnunet_task027_acdc__1.5__rv3.0",
+   "patient128__nnunet_task114_mnms__1.0__rv3.0",
+   "patient128__nnunet_task114_mnms__1.5__rv3.0",
+   "patient128__nnunet_ukb_sax__1.0__rv3.0",
+   "patient128__nnunet_ukb_sax__1.5__rv3.0",
+   "patient128__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient128__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient129__expert__1.0__rv3.0",
+   "patient129__expert__1.5__rv3.0",
+   "patient129__nnunet_task027_acdc__1.0__rv3.0",
+   "patient129__nnunet_task027_acdc__1.5__rv3.0",
+   "patient129__nnunet_task114_mnms__1.0__rv3.0",
+   "patient129__nnunet_task114_mnms__1.5__rv3.0",
+   "patient129__nnunet_ukb_sax__1.0__rv3.0",
+   "patient129__nnunet_ukb_sax__1.5__rv3.0",
+   "patient129__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient129__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient130__cinema_acdc_sax__1.0__rv3.0",
+   "patient130__cinema_acdc_sax__1.5__rv3.0",
+   "patient130__expert__1.0__rv3.0",
+   "patient130__expert__1.5__rv3.0",
+   "patient130__nnunet_task027_acdc__1.0__rv3.0",
+   "patient130__nnunet_task027_acdc__1.5__rv3.0",
+   "patient130__nnunet_task114_mnms__1.0__rv3.0",
+   "patient130__nnunet_task114_mnms__1.5__rv3.0",
+   "patient130__nnunet_ukb_sax__1.0__rv3.0",
+   "patient130__nnunet_ukb_sax__1.5__rv3.0",
+   "patient130__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient130__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient131__cinema_acdc_sax__1.0__rv3.0",
+   "patient131__cinema_acdc_sax__1.5__rv3.0",
+   "patient131__expert__1.0__rv3.0",
+   "patient131__expert__1.5__rv3.0",
+   "patient131__nnunet_task027_acdc__1.0__rv3.0",
+   "patient131__nnunet_task027_acdc__1.5__rv3.0",
+   "patient131__nnunet_task114_mnms__1.0__rv3.0",
+   "patient131__nnunet_task114_mnms__1.5__rv3.0",
+   "patient131__nnunet_ukb_sax__1.0__rv3.0",
+   "patient131__nnunet_ukb_sax__1.5__rv3.0",
+   "patient131__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient131__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient132__cinema_acdc_sax__1.0__rv3.0",
+   "patient132__cinema_acdc_sax__1.5__rv3.0",
+   "patient132__expert__1.0__rv3.0",
+   "patient132__expert__1.5__rv3.0",
+   "patient132__nnunet_task027_acdc__1.0__rv3.0",
+   "patient132__nnunet_task027_acdc__1.5__rv3.0",
+   "patient132__nnunet_task114_mnms__1.0__rv3.0",
+   "patient132__nnunet_task114_mnms__1.5__rv3.0",
+   "patient132__nnunet_ukb_sax__1.0__rv3.0",
+   "patient132__nnunet_ukb_sax__1.5__rv3.0",
+   "patient132__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient132__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient133__cinema_acdc_sax__1.0__rv3.0",
+   "patient133__cinema_acdc_sax__1.5__rv3.0",
+   "patient133__expert__1.0__rv3.0",
+   "patient133__expert__1.5__rv3.0",
+   "patient133__nnunet_task027_acdc__1.0__rv3.0",
+   "patient133__nnunet_task027_acdc__1.5__rv3.0",
+   "patient133__nnunet_task114_mnms__1.0__rv3.0",
+   "patient133__nnunet_task114_mnms__1.5__rv3.0",
+   "patient133__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient133__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient134__cinema_acdc_sax__1.0__rv3.0",
+   "patient134__cinema_acdc_sax__1.5__rv3.0",
+   "patient134__expert__1.0__rv3.0",
+   "patient134__expert__1.5__rv3.0",
+   "patient134__nnunet_task027_acdc__1.0__rv3.0",
+   "patient134__nnunet_task027_acdc__1.5__rv3.0",
+   "patient134__nnunet_task114_mnms__1.0__rv3.0",
+   "patient134__nnunet_task114_mnms__1.5__rv3.0",
+   "patient134__nnunet_ukb_sax__1.0__rv3.0",
+   "patient134__nnunet_ukb_sax__1.5__rv3.0",
+   "patient134__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient134__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient135__cinema_acdc_sax__1.0__rv3.0",
+   "patient135__cinema_acdc_sax__1.5__rv3.0",
+   "patient135__expert__1.0__rv3.0",
+   "patient135__expert__1.5__rv3.0",
+   "patient135__nnunet_task027_acdc__1.0__rv3.0",
+   "patient135__nnunet_task027_acdc__1.5__rv3.0",
+   "patient135__nnunet_task114_mnms__1.0__rv3.0",
+   "patient135__nnunet_task114_mnms__1.5__rv3.0",
+   "patient135__nnunet_ukb_sax__1.0__rv3.0",
+   "patient135__nnunet_ukb_sax__1.5__rv3.0",
+   "patient135__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient135__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient136__cinema_acdc_sax__1.0__rv3.0",
+   "patient136__cinema_acdc_sax__1.5__rv3.0",
+   "patient136__expert__1.0__rv3.0",
+   "patient136__expert__1.5__rv3.0",
+   "patient136__nnunet_task027_acdc__1.0__rv3.0",
+   "patient136__nnunet_task027_acdc__1.5__rv3.0",
+   "patient136__nnunet_task114_mnms__1.0__rv3.0",
+   "patient136__nnunet_task114_mnms__1.5__rv3.0",
+   "patient136__nnunet_ukb_sax__1.0__rv3.0",
+   "patient136__nnunet_ukb_sax__1.5__rv3.0",
+   "patient136__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient136__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient137__cinema_acdc_sax__1.0__rv3.0",
+   "patient137__cinema_acdc_sax__1.5__rv3.0",
+   "patient137__expert__1.0__rv3.0",
+   "patient137__expert__1.5__rv3.0",
+   "patient137__nnunet_task027_acdc__1.0__rv3.0",
+   "patient137__nnunet_task027_acdc__1.5__rv3.0",
+   "patient137__nnunet_task114_mnms__1.0__rv3.0",
+   "patient137__nnunet_task114_mnms__1.5__rv3.0",
+   "patient137__nnunet_ukb_sax__1.0__rv3.0",
+   "patient137__nnunet_ukb_sax__1.5__rv3.0",
+   "patient137__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient137__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient138__cinema_acdc_sax__1.0__rv3.0",
+   "patient138__cinema_acdc_sax__1.5__rv3.0",
+   "patient138__expert__1.0__rv3.0",
+   "patient138__expert__1.5__rv3.0",
+   "patient138__nnunet_task027_acdc__1.0__rv3.0",
+   "patient138__nnunet_task027_acdc__1.5__rv3.0",
+   "patient138__nnunet_task114_mnms__1.0__rv3.0",
+   "patient138__nnunet_task114_mnms__1.5__rv3.0",
+   "patient138__nnunet_ukb_sax__1.0__rv3.0",
+   "patient138__nnunet_ukb_sax__1.5__rv3.0",
+   "patient138__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient138__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient139__cinema_acdc_sax__1.0__rv3.0",
+   "patient139__cinema_acdc_sax__1.5__rv3.0",
+   "patient139__expert__1.0__rv3.0",
+   "patient139__expert__1.5__rv3.0",
+   "patient139__nnunet_task027_acdc__1.0__rv3.0",
+   "patient139__nnunet_task027_acdc__1.5__rv3.0",
+   "patient139__nnunet_task114_mnms__1.0__rv3.0",
+   "patient139__nnunet_task114_mnms__1.5__rv3.0",
+   "patient139__nnunet_ukb_sax__1.0__rv3.0",
+   "patient139__nnunet_ukb_sax__1.5__rv3.0",
+   "patient139__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient139__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient140__cinema_acdc_sax__1.0__rv3.0",
+   "patient140__cinema_acdc_sax__1.5__rv3.0",
+   "patient140__expert__1.0__rv3.0",
+   "patient140__expert__1.5__rv3.0",
+   "patient140__nnunet_task027_acdc__1.0__rv3.0",
+   "patient140__nnunet_task027_acdc__1.5__rv3.0",
+   "patient140__nnunet_task114_mnms__1.0__rv3.0",
+   "patient140__nnunet_task114_mnms__1.5__rv3.0",
+   "patient140__nnunet_ukb_sax__1.0__rv3.0",
+   "patient140__nnunet_ukb_sax__1.5__rv3.0",
+   "patient140__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient140__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient141__cinema_acdc_sax__1.0__rv3.0",
+   "patient141__cinema_acdc_sax__1.5__rv3.0",
+   "patient141__expert__1.0__rv3.0",
+   "patient141__expert__1.5__rv3.0",
+   "patient141__nnunet_task027_acdc__1.0__rv3.0",
+   "patient141__nnunet_task027_acdc__1.5__rv3.0",
+   "patient141__nnunet_task114_mnms__1.0__rv3.0",
+   "patient141__nnunet_task114_mnms__1.5__rv3.0",
+   "patient141__nnunet_ukb_sax__1.0__rv3.0",
+   "patient141__nnunet_ukb_sax__1.5__rv3.0",
+   "patient141__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient141__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient142__cinema_acdc_sax__1.0__rv3.0",
+   "patient142__cinema_acdc_sax__1.5__rv3.0",
+   "patient142__expert__1.0__rv3.0",
+   "patient142__expert__1.5__rv3.0",
+   "patient142__nnunet_task027_acdc__1.0__rv3.0",
+   "patient142__nnunet_task027_acdc__1.5__rv3.0",
+   "patient142__nnunet_task114_mnms__1.0__rv3.0",
+   "patient142__nnunet_task114_mnms__1.5__rv3.0",
+   "patient142__nnunet_ukb_sax__1.0__rv3.0",
+   "patient142__nnunet_ukb_sax__1.5__rv3.0",
+   "patient142__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient142__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient143__cinema_acdc_sax__1.0__rv3.0",
+   "patient143__cinema_acdc_sax__1.5__rv3.0",
+   "patient143__expert__1.0__rv3.0",
+   "patient143__expert__1.5__rv3.0",
+   "patient143__nnunet_task027_acdc__1.0__rv3.0",
+   "patient143__nnunet_task027_acdc__1.5__rv3.0",
+   "patient143__nnunet_task114_mnms__1.0__rv3.0",
+   "patient143__nnunet_task114_mnms__1.5__rv3.0",
+   "patient143__nnunet_ukb_sax__1.0__rv3.0",
+   "patient143__nnunet_ukb_sax__1.5__rv3.0",
+   "patient143__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient143__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient144__cinema_acdc_sax__1.0__rv3.0",
+   "patient144__cinema_acdc_sax__1.5__rv3.0",
+   "patient144__expert__1.0__rv3.0",
+   "patient144__expert__1.5__rv3.0",
+   "patient144__nnunet_task027_acdc__1.0__rv3.0",
+   "patient144__nnunet_task027_acdc__1.5__rv3.0",
+   "patient144__nnunet_task114_mnms__1.0__rv3.0",
+   "patient144__nnunet_task114_mnms__1.5__rv3.0",
+   "patient144__nnunet_ukb_sax__1.0__rv3.0",
+   "patient144__nnunet_ukb_sax__1.5__rv3.0",
+   "patient144__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient144__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient145__cinema_acdc_sax__1.0__rv3.0",
+   "patient145__cinema_acdc_sax__1.5__rv3.0",
+   "patient145__expert__1.0__rv3.0",
+   "patient145__expert__1.5__rv3.0",
+   "patient145__nnunet_task027_acdc__1.0__rv3.0",
+   "patient145__nnunet_task027_acdc__1.5__rv3.0",
+   "patient145__nnunet_task114_mnms__1.0__rv3.0",
+   "patient145__nnunet_task114_mnms__1.5__rv3.0",
+   "patient145__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient145__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient146__cinema_acdc_sax__1.0__rv3.0",
+   "patient146__cinema_acdc_sax__1.5__rv3.0",
+   "patient146__expert__1.0__rv3.0",
+   "patient146__expert__1.5__rv3.0",
+   "patient146__nnunet_task027_acdc__1.0__rv3.0",
+   "patient146__nnunet_task027_acdc__1.5__rv3.0",
+   "patient146__nnunet_task114_mnms__1.0__rv3.0",
+   "patient146__nnunet_task114_mnms__1.5__rv3.0",
+   "patient146__nnunet_ukb_sax__1.0__rv3.0",
+   "patient146__nnunet_ukb_sax__1.5__rv3.0",
+   "patient146__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient146__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient147__cinema_acdc_sax__1.0__rv3.0",
+   "patient147__cinema_acdc_sax__1.5__rv3.0",
+   "patient147__expert__1.0__rv3.0",
+   "patient147__expert__1.5__rv3.0",
+   "patient147__nnunet_task027_acdc__1.0__rv3.0",
+   "patient147__nnunet_task027_acdc__1.5__rv3.0",
+   "patient147__nnunet_task114_mnms__1.0__rv3.0",
+   "patient147__nnunet_task114_mnms__1.5__rv3.0",
+   "patient147__nnunet_ukb_sax__1.0__rv3.0",
+   "patient147__nnunet_ukb_sax__1.5__rv3.0",
+   "patient147__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient147__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient148__cinema_acdc_sax__1.0__rv3.0",
+   "patient148__cinema_acdc_sax__1.5__rv3.0",
+   "patient148__expert__1.0__rv3.0",
+   "patient148__expert__1.5__rv3.0",
+   "patient148__nnunet_task027_acdc__1.0__rv3.0",
+   "patient148__nnunet_task027_acdc__1.5__rv3.0",
+   "patient148__nnunet_task114_mnms__1.0__rv3.0",
+   "patient148__nnunet_task114_mnms__1.5__rv3.0",
+   "patient148__nnunet_ukb_sax__1.0__rv3.0",
+   "patient148__nnunet_ukb_sax__1.5__rv3.0",
+   "patient148__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient148__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient149__cinema_acdc_sax__1.0__rv3.0",
+   "patient149__cinema_acdc_sax__1.5__rv3.0",
+   "patient149__expert__1.0__rv3.0",
+   "patient149__expert__1.5__rv3.0",
+   "patient149__nnunet_task027_acdc__1.0__rv3.0",
+   "patient149__nnunet_task027_acdc__1.5__rv3.0",
+   "patient149__nnunet_task114_mnms__1.0__rv3.0",
+   "patient149__nnunet_task114_mnms__1.5__rv3.0",
+   "patient149__nnunet_ukb_sax__1.0__rv3.0",
+   "patient149__nnunet_ukb_sax__1.5__rv3.0",
+   "patient149__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient149__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+   "patient150__cinema_acdc_sax__1.0__rv3.0",
+   "patient150__cinema_acdc_sax__1.5__rv3.0",
+   "patient150__expert__1.0__rv3.0",
+   "patient150__expert__1.5__rv3.0",
+   "patient150__nnunet_task027_acdc__1.0__rv3.0",
+   "patient150__nnunet_task027_acdc__1.5__rv3.0",
+   "patient150__nnunet_task114_mnms__1.0__rv3.0",
+   "patient150__nnunet_task114_mnms__1.5__rv3.0",
+   "patient150__nnunet_ukb_sax__1.0__rv3.0",
+   "patient150__nnunet_ukb_sax__1.5__rv3.0",
+   "patient150__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+   "patient150__ukbb_cardiac_fcn_sa__1.5__rv3.0"
+  ],
+  "hearts": 1,
+  "estimate_rows": 162,
+  "expected_rows": 4422,
+  "nan_estimates": 0,
+  "unactivated_constructions": 0,
+  "by_set": {
+   "primary|1.0|rv3.0": 5,
+   "primary|1.5|rv3.0": 5,
+   "rv_wall_extra_1.0mm|1.0|rv2.0": 5,
+   "rv_wall_extra_1.0mm|1.0|rv4.0": 5,
+   "rv_wall_sensitivity|1.5|rv4.0": 5,
+   "ukbb_sensitivity|1.0|rv3.0": 1,
+   "ukbb_sensitivity|1.5|rv3.0": 1
+  },
+  "noise_rows": 288,
+  "noise_expected": 1920,
+  "noise_nan": 0
+ },
+ "fit_and_bounds_by_loss_source": {
+  "amp|cinema_acdc_sax": {
+   "n": 15,
+   "fval_q": [
+    0.0345756489129912,
+    0.0610836956042859,
+    0.13005282711202906
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  },
+  "amp|expert": {
+   "n": 15,
+   "fval_q": [
+    4.1723733754133135e-11,
+    0.0394667074682816,
+    0.13474321976589607
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  },
+  "amp|nnunet_task027_acdc": {
+   "n": 15,
+   "fval_q": [
+    0.02378856506861898,
+    0.0425586846534388,
+    0.11409493567396953
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  },
+  "amp|nnunet_task114_mnms": {
+   "n": 15,
+   "fval_q": [
+    0.041598654337489216,
+    0.0609516890659855,
+    0.1671789816989802
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  },
+  "amp|nnunet_ukb_sax": {
+   "n": 15,
+   "fval_q": [
+    0.02470140832895827,
+    0.0632991956376206,
+    0.2140632015498685
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  },
+  "amp|ukbb_cardiac_fcn_sa": {
+   "n": 6,
+   "fval_q": [
+    0.04419759100508134,
+    0.07046421103171435,
+    0.10872857472646348
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  },
+  "corr|cinema_acdc_sax": {
+   "n": 15,
+   "fval_q": [
+    0.023348376662766793,
+    0.0734846022530386,
+    0.188763465671284
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 1
+  },
+  "corr|expert": {
+   "n": 15,
+   "fval_q": [
+    6.456169487911723e-11,
+    0.0547485257061522,
+    0.25589838074655297
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  },
+  "corr|nnunet_task027_acdc": {
+   "n": 15,
+   "fval_q": [
+    0.021280389244996093,
+    0.0687917706026908,
+    0.22270727731185969
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 1
+  },
+  "corr|nnunet_task114_mnms": {
+   "n": 15,
+   "fval_q": [
+    0.01898798217035209,
+    0.0423035543071532,
+    0.12054402949547878
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 1
+  },
+  "corr|nnunet_ukb_sax": {
+   "n": 15,
+   "fval_q": [
+    0.034134397749149864,
+    0.0943486446140907,
+    0.35497893526742214
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  },
+  "corr|ukbb_cardiac_fcn_sa": {
+   "n": 6,
+   "fval_q": [
+    0.04844883582311797,
+    0.08889005558139915,
+    0.1845036343840149
+   ],
+   "censored": 0,
+   "lo_v_endo": 0,
+   "hi_v_endo": 0,
+   "lo_v_t": 0,
+   "hi_v_t": 0,
+   "vt_gt_vfib": 0
+  }
+ },
+ "fit_and_bounds_by_loss_set": {
+  "amp|primary": {
+   "n": 30,
+   "fval_q": [
+    5.913200153470133e-11,
+    0.0414781176785086,
+    0.08348096130988196
+   ],
+   "censored": 0
+  },
+  "amp|rv_wall_extra_1.0mm": {
+   "n": 30,
+   "fval_q": [
+    0.03881962298752966,
+    0.07924871436171446,
+    0.1893926051126172
+   ],
+   "censored": 0
+  },
+  "amp|rv_wall_sensitivity": {
+   "n": 15,
+   "fval_q": [
+    0.035917794577223716,
+    0.0503199157817445,
+    0.1300947228673752
+   ],
+   "censored": 0
+  },
+  "amp|ukbb_sensitivity": {
+   "n": 6,
+   "fval_q": [
+    0.04419759100508134,
+    0.07046421103171435,
+    0.10872857472646348
+   ],
+   "censored": 0
+  },
+  "corr|primary": {
+   "n": 30,
+   "fval_q": [
+    8.284136432390456e-11,
+    0.03173688586957265,
+    0.1161546776354656
+   ],
+   "censored": 0
+  },
+  "corr|rv_wall_extra_1.0mm": {
+   "n": 30,
+   "fval_q": [
+    0.04170774242179577,
+    0.095162298531906,
+    0.32499871401300356
+   ],
+   "censored": 0
+  },
+  "corr|rv_wall_sensitivity": {
+   "n": 15,
+   "fval_q": [
+    0.03270643042477146,
+    0.0833901699461853,
+    0.2278882948757381
+   ],
+   "censored": 0
+  },
+  "corr|ukbb_sensitivity": {
+   "n": 6,
+   "fval_q": [
+    0.04844883582311797,
+    0.08889005558139915,
+    0.1845036343840149
+   ],
+   "censored": 0
+  }
+ },
+ "reference_recovery_max_abs_rel_err": {
+  "amp": {
+   "v_endo": 2.549079621383399e-06,
+   "v_t": 1.2354013755544457e-05,
+   "n": 3
+  },
+  "corr": {
+   "v_endo": 3.284932884595193e-06,
+   "v_t": 1.955537826070497e-05,
+   "n": 3
+  }
+ },
+ "refinement": {
+  "n_runs": 160,
+  "emu0_rms_ms_q": [
+   0.011020797697168475,
+   0.02677398940705325,
+   0.07099812898989594
+  ],
+  "emu0_maxabs_ms_max": 1.099761962890625,
+  "per_construction_max": 7
+ },
+ "noise_by_level": {
+  "amp|disp|5": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.006182633753823835,
+    0.007361479903324223,
+    0.011072146276660935
+   ],
+   "sd_ratio_v_t_q": [
+    0.012545162179110017,
+    0.029514909280222334,
+    0.04086160580429329
+   ]
+  },
+  "amp|disp|10": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.014655854997569943,
+    0.02620420283705096,
+    0.039171159003050085
+   ],
+   "sd_ratio_v_t_q": [
+    0.04094527715354811,
+    0.058312352803240444,
+    0.06936154111525596
+   ]
+  },
+  "amp|disp|20": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.01803842452390629,
+    0.035342399074887385,
+    0.06194830997607256
+   ],
+   "sd_ratio_v_t_q": [
+    0.03866974265544586,
+    0.16890493013937666,
+    0.25095732354314887
+   ]
+  },
+  "amp|lp40|10": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.014086941157902821,
+    0.014503131317653704,
+    0.07612364051279366
+   ],
+   "sd_ratio_v_t_q": [
+    0.05905438541624632,
+    0.13315063363846374,
+    0.29805886739069826
+   ]
+  },
+  "amp|lp40|15": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.021222496639149692,
+    0.022399533129053323,
+    0.028756181588636374
+   ],
+   "sd_ratio_v_t_q": [
+    0.07936914969128185,
+    0.11845504304354985,
+    0.1676210730616416
+   ]
+  },
+  "amp|lp40|20": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.007044223909463543,
+    0.009822461618104487,
+    0.012093645529354867
+   ],
+   "sd_ratio_v_t_q": [
+    0.0532046297332349,
+    0.0558506247808669,
+    0.06262091574093558
+   ]
+  },
+  "amp|lp40|25": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0026728175185019892,
+    0.005867200660895268,
+    0.00958921985973406
+   ],
+   "sd_ratio_v_t_q": [
+    0.003477928488122866,
+    0.01156689529397137,
+    0.024315497825438615
+   ]
+  },
+  "amp|lp40|30": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0011840159327751614,
+    0.0019083549948016507,
+    0.007595763341825645
+   ],
+   "sd_ratio_v_t_q": [
+    0.01702888778962303,
+    0.021421292713319322,
+    0.02694012067026649
+   ]
+  },
+  "amp|wander|5": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0013319727452867289,
+    0.001689874696122974,
+    0.001976034736186526
+   ],
+   "sd_ratio_v_t_q": [
+    0.007494879645289197,
+    0.011539310352707964,
+    0.026018180946767805
+   ]
+  },
+  "amp|wander|10": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.002959496154716175,
+    0.005842627458230108,
+    0.01298557854797991
+   ],
+   "sd_ratio_v_t_q": [
+    0.07064065769175748,
+    0.1150212556472456,
+    0.1515818499236966
+   ]
+  },
+  "amp|wander|20": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0016733775994415873,
+    0.009334965263431031,
+    0.009892632857734972
+   ],
+   "sd_ratio_v_t_q": [
+    0.07821394880846227,
+    0.1595209128000677,
+    0.16747977208223966
+   ]
+  },
+  "amp|white|10": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.003037978180075857,
+    0.0030955203426737384,
+    0.007609538354981013
+   ],
+   "sd_ratio_v_t_q": [
+    0.012067449670770917,
+    0.015608472778720416,
+    0.022045411641821597
+   ]
+  },
+  "amp|white|15": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0034013887048546802,
+    0.004530517334170474,
+    0.005948280946227027
+   ],
+   "sd_ratio_v_t_q": [
+    0.00865246755307301,
+    0.017548966427717284,
+    0.02348527962029407
+   ]
+  },
+  "amp|white|20": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0008403210336232065,
+    0.0009344425497929136,
+    0.0019959244941092687
+   ],
+   "sd_ratio_v_t_q": [
+    0.008298623546314285,
+    0.011703128387441305,
+    0.012700201509811269
+   ]
+  },
+  "amp|white|25": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.000681327941261152,
+    0.0008718238468737993,
+    0.0012395975652366939
+   ],
+   "sd_ratio_v_t_q": [
+    0.0004195850825787717,
+    0.0029824382135151062,
+    0.011649169741267486
+   ]
+  },
+  "amp|white|30": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0005634807479648261,
+    0.0009351267516408227,
+    0.0012674012824580945
+   ],
+   "sd_ratio_v_t_q": [
+    0.0018772369358105636,
+    0.005075370027595397,
+    0.00620177234632621
+   ]
+  },
+  "corr|disp|5": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0017122755516527015,
+    0.002169019853423812,
+    0.003198484903542768
+   ],
+   "sd_ratio_v_t_q": [
+    0.012895589883914763,
+    0.013974394300926537,
+    0.03420986708101623
+   ]
+  },
+  "corr|disp|10": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0011912260477935047,
+    0.0018572089714296296,
+    0.00286024332583109
+   ],
+   "sd_ratio_v_t_q": [
+    0.007605369265933756,
+    0.00965628232365969,
+    0.030740956107990797
+   ]
+  },
+  "corr|disp|20": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.007556643609959476,
+    0.009991320592150762,
+    0.013771030361586094
+   ],
+   "sd_ratio_v_t_q": [
+    0.04588973071010783,
+    0.05582612097414335,
+    0.08667943052866585
+   ]
+  },
+  "corr|lp40|10": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.008888403911739501,
+    0.013743796061473341,
+    0.029318189807740206
+   ],
+   "sd_ratio_v_t_q": [
+    0.015009916471578387,
+    0.049803124067365936,
+    0.1406588116948929
+   ]
+  },
+  "corr|lp40|15": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.00892621338664996,
+    0.012931499846728449,
+    0.013262900751038764
+   ],
+   "sd_ratio_v_t_q": [
+    0.03512521220202077,
+    0.04210189311134283,
+    0.042672840269864586
+   ]
+  },
+  "corr|lp40|20": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0018815777337172755,
+    0.004151661207080223,
+    0.004305876474976175
+   ],
+   "sd_ratio_v_t_q": [
+    0.008418280910188834,
+    0.009368045293969157,
+    0.017939131868335442
+   ]
+  },
+  "corr|lp40|25": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0006838424214023238,
+    0.0011627658585654306,
+    0.002412145201302826
+   ],
+   "sd_ratio_v_t_q": [
+    0.007518119297413224,
+    0.008763352394406268,
+    0.00980888774782651
+   ]
+  },
+  "corr|lp40|30": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0018097426591008796,
+    0.001928549935125778,
+    0.0033084016598904685
+   ],
+   "sd_ratio_v_t_q": [
+    0.00409663694706391,
+    0.005909158676155775,
+    0.007231485923739573
+   ]
+  },
+  "corr|wander|5": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0010134495832764996,
+    0.001763310454802159,
+    0.004752002072428985
+   ],
+   "sd_ratio_v_t_q": [
+    0.005738969309410362,
+    0.015476145454245952,
+    0.02316200370569608
+   ]
+  },
+  "corr|wander|10": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.002154841165631265,
+    0.002499725520284138,
+    0.002996639654144117
+   ],
+   "sd_ratio_v_t_q": [
+    0.008591444704055378,
+    0.014540970038020642,
+    0.01500534072882298
+   ]
+  },
+  "corr|wander|20": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.005079997389042801,
+    0.008937700038702248,
+    0.00896695625129094
+   ],
+   "sd_ratio_v_t_q": [
+    0.030328735310975956,
+    0.05288498959975641,
+    0.08957826009152388
+   ]
+  },
+  "corr|white|10": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0018444065408849272,
+    0.0026631796280342803,
+    0.0037639382027196875
+   ],
+   "sd_ratio_v_t_q": [
+    0.005291275478116601,
+    0.009355804336536514,
+    0.020907203992435747
+   ]
+  },
+  "corr|white|15": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.000203044536475638,
+    0.0010388232715962651,
+    0.0016366691929297547
+   ],
+   "sd_ratio_v_t_q": [
+    0.0016318542626240643,
+    0.005255675003465095,
+    0.006701581514846265
+   ]
+  },
+  "corr|white|20": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0008479010219823307,
+    0.000981944970280878,
+    0.0017676171111865571
+   ],
+   "sd_ratio_v_t_q": [
+    0.0024668088489617763,
+    0.0028233712045397158,
+    0.0056433570317714
+   ]
+  },
+  "corr|white|25": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.0007126070236934746,
+    0.0008746145086831062,
+    0.0009929484273823546
+   ],
+   "sd_ratio_v_t_q": [
+    0.0002648248379403254,
+    0.0018241694653410479,
+    0.002401027125825507
+   ]
+  },
+  "corr|white|30": {
+   "n": 9,
+   "censored": 0,
+   "sd_ratio_v_endo_q": [
+    0.00025267147112279783,
+    0.0004425238164655241,
+    0.0006567774871262397
+   ],
+   "sd_ratio_v_t_q": [
+    0.0010744887508427736,
+    0.0012873508960492878,
+    0.0036518429100527794
+   ]
+  }
+ },
+ "root_flag": {
+  "1.0": 0,
+  "1.5": 0
+ },
+ "root_flag_denominator": {
+  "1.0": 16,
+  "1.5": 10
+ },
+ "trio_cv": {
+  "gates12|A2|amp|102|v_endo": {
+   "cv_median_over_theta": 0.037018240014210856,
+   "cv_each_theta": [
+    0.03664776658426824,
+    0.037018240014210856,
+    0.0412137697237194
+   ],
+   "n_cons": 12
+  },
+  "gates12|A2|amp|102|v_t": {
+   "cv_median_over_theta": 0.12380923417715378,
+   "cv_each_theta": [
+    0.16102610663085404,
+    0.12380923417715378,
+    0.07474032440151308
+   ],
+   "n_cons": 12
+  },
+  "gates12|A2|corr|102|v_endo": {
+   "cv_median_over_theta": 0.013675491098399217,
+   "cv_each_theta": [
+    0.012837594714286886,
+    0.013675491098399217,
+    0.020150979701392787
+   ],
+   "n_cons": 12
+  },
+  "gates12|A2|corr|102|v_t": {
+   "cv_median_over_theta": 0.23480172316218756,
+   "cv_each_theta": [
+    0.23480172316218756,
+    0.2491634290616093,
+    0.2056289631643732
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|amp|101|v_endo": {
+   "cv_median_over_theta": 0.05796331727017225,
+   "cv_each_theta": [
+    0.031022975521272447,
+    0.05796331727017225,
+    0.06194887270969592
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|amp|101|v_t": {
+   "cv_median_over_theta": 0.14864859302016348,
+   "cv_each_theta": [
+    0.34606770819282884,
+    0.14345094127706715,
+    0.14864859302016348
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|corr|101|v_endo": {
+   "cv_median_over_theta": 0.14540300296161535,
+   "cv_each_theta": [
+    0.041124267701669937,
+    0.18477227555702477,
+    0.14540300296161535
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|corr|101|v_t": {
+   "cv_median_over_theta": 0.30941806812695916,
+   "cv_each_theta": [
+    0.30941806812695916,
+    0.31935600259794433,
+    0.25390270036607243
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|amp|102|v_endo": {
+   "cv_median_over_theta": 0.040638776354744284,
+   "cv_each_theta": [
+    0.04543166578212451,
+    0.040638776354744284,
+    0.034052595321362136
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|amp|102|v_t": {
+   "cv_median_over_theta": 0.11796201791714668,
+   "cv_each_theta": [
+    0.14873658070910714,
+    0.11796201791714668,
+    0.0824867561409203
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|corr|102|v_endo": {
+   "cv_median_over_theta": 0.026427695628777458,
+   "cv_each_theta": [
+    0.04535498841866225,
+    0.026427695628777458,
+    0.014479880154738993
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|corr|102|v_t": {
+   "cv_median_over_theta": 0.22859885974076055,
+   "cv_each_theta": [
+    0.23175765639175436,
+    0.22859885974076055,
+    0.1995453815000747
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|amp|104|v_endo": {
+   "cv_median_over_theta": 0.134584901819947,
+   "cv_each_theta": [
+    0.18476135469548305,
+    0.134584901819947,
+    0.04017390949307581
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|amp|104|v_t": {
+   "cv_median_over_theta": 0.505382583282079,
+   "cv_each_theta": [
+    0.8415479344861826,
+    0.505382583282079,
+    0.2225128625489766
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|corr|104|v_endo": {
+   "cv_median_over_theta": 0.1550857222219149,
+   "cv_each_theta": [
+    0.1550857222219149,
+    0.2702962173509704,
+    0.03515412696946346
+   ],
+   "n_cons": 12
+  },
+  "gates12|onevoxel_gates|corr|104|v_t": {
+   "cv_median_over_theta": 0.23777314021190715,
+   "cv_each_theta": [
+    0.20060020778223056,
+    0.2939625371037079,
+    0.23777314021190715
+   ],
+   "n_cons": 12
+  },
+  "primary10|A2|amp|102|v_endo": {
+   "cv_median_over_theta": 0.03552711589147661,
+   "cv_each_theta": [
+    0.03552711589147661,
+    0.03329053273313678,
+    0.03796954059968455
+   ],
+   "n_cons": 10
+  },
+  "primary10|A2|amp|102|v_t": {
+   "cv_median_over_theta": 0.08467832530656084,
+   "cv_each_theta": [
+    0.12120243749406055,
+    0.08467832530656084,
+    0.06031506547715958
+   ],
+   "n_cons": 10
+  },
+  "primary10|A2|corr|102|v_endo": {
+   "cv_median_over_theta": 0.013741468642164186,
+   "cv_each_theta": [
+    0.013741468642164186,
+    0.008353425503576623,
+    0.01755435240349276
+   ],
+   "n_cons": 10
+  },
+  "primary10|A2|corr|102|v_t": {
+   "cv_median_over_theta": 0.13306458180853478,
+   "cv_each_theta": [
+    0.13306458180853478,
+    0.14307476441889622,
+    0.13169962117372824
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|amp|101|v_endo": {
+   "cv_median_over_theta": 0.05843273363219014,
+   "cv_each_theta": [
+    0.02724806093525288,
+    0.05843273363219014,
+    0.06422990645217143
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|amp|101|v_t": {
+   "cv_median_over_theta": 0.06256186549713866,
+   "cv_each_theta": [
+    0.2930750936956448,
+    0.06256186549713866,
+    0.06146283554179097
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|corr|101|v_endo": {
+   "cv_median_over_theta": 0.13951594925085697,
+   "cv_each_theta": [
+    0.03195356601286028,
+    0.15816110842261547,
+    0.13951594925085697
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|corr|101|v_t": {
+   "cv_median_over_theta": 0.18878136633993134,
+   "cv_each_theta": [
+    0.1992838363274017,
+    0.18878136633993134,
+    0.17124920915679423
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|amp|102|v_endo": {
+   "cv_median_over_theta": 0.0382416003537542,
+   "cv_each_theta": [
+    0.04485523447950185,
+    0.0382416003537542,
+    0.030424126868027087
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|amp|102|v_t": {
+   "cv_median_over_theta": 0.08943567593928545,
+   "cv_each_theta": [
+    0.11628903885758513,
+    0.08943567593928545,
+    0.0703249486054406
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|corr|102|v_endo": {
+   "cv_median_over_theta": 0.02585768979771989,
+   "cv_each_theta": [
+    0.042617108181487805,
+    0.02585768979771989,
+    0.010437051272214969
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|corr|102|v_t": {
+   "cv_median_over_theta": 0.13330676992555532,
+   "cv_each_theta": [
+    0.12737940246545995,
+    0.14159229330787654,
+    0.13330676992555532
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|amp|104|v_endo": {
+   "cv_median_over_theta": 0.050953626622816904,
+   "cv_each_theta": [
+    0.08008158200960429,
+    0.050953626622816904,
+    0.022957745122741353
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|amp|104|v_t": {
+   "cv_median_over_theta": 0.10268251548199527,
+   "cv_each_theta": [
+    0.13842945685645983,
+    0.10268251548199527,
+    0.08676170786075321
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|corr|104|v_endo": {
+   "cv_median_over_theta": 0.12079978183796311,
+   "cv_each_theta": [
+    0.12079978183796311,
+    0.24317794525822944,
+    0.027950679838084143
+   ],
+   "n_cons": 10
+  },
+  "primary10|onevoxel_gates|corr|104|v_t": {
+   "cv_median_over_theta": 0.14792959108417425,
+   "cv_each_theta": [
+    0.10071117319450607,
+    0.14792959108417425,
+    0.18853334627677396
+   ],
+   "n_cons": 10
+  }
+ },
+ "trio_paired": {
+  "amp|v_endo": {
+   "n": 36,
+   "median_ratio_a2_over_1v": 0.9752363709511819,
+   "q": [
+    0.8953483403695688,
+    0.9752363709511819,
+    1.0110595124736745
+   ]
+  },
+  "amp|v_t": {
+   "n": 36,
+   "median_ratio_a2_over_1v": 1.0002269280276417,
+   "q": [
+    0.9479076516732041,
+    1.0002269280276417,
+    1.0765059170335352
+   ]
+  },
+  "corr|v_endo": {
+   "n": 36,
+   "median_ratio_a2_over_1v": 0.9803187200455721,
+   "q": [
+    0.9137883460707189,
+    0.9803187200455721,
+    1.0138322612042425
+   ]
+  },
+  "corr|v_t": {
+   "n": 36,
+   "median_ratio_a2_over_1v": 0.9978779701953779,
+   "q": [
+    0.8862094907643626,
+    0.9978779701953779,
+    1.1007891452708698
+   ]
+  }
+ },
+ "trio_mesh_share": {
+  "101|1.0": {
+   "A2": 0.4243709068893211,
+   "onevoxel": 0.2865741625006461,
+   "n": 6
+  },
+  "101|1.5": {
+   "A2": 0.47800116800780157,
+   "onevoxel": 0.43757729082946445,
+   "n": 6
+  },
+  "102|1.0": {
+   "A2": 0.38314258155045516,
+   "onevoxel": 0.26208419950970374,
+   "n": 6
+  },
+  "102|1.5": {
+   "A2": 0.4444740565973906,
+   "onevoxel": 0.40936527647863497,
+   "n": 6
+  },
+  "104|1.0": {
+   "A2": 0.3091799493765825,
+   "onevoxel": 0.21631311715562374,
+   "n": 6
+  },
+  "104|1.5": {
+   "A2": 0.3575945739585098,
+   "onevoxel": 0.3325557618393189,
+   "n": 6
+  }
+ }
+}

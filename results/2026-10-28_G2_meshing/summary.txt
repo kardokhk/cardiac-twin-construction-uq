@@ -1,0 +1,61 @@
+G2 (expert, 1.5 mm): 50 hearts attempted; meshing-only pass 50/50; meshing + smoke pass 50/50; line >= 35 of 50 -> PASS
+fail codes: {}
+  n_nodes: median 6.437e+04 [2.5th 3.996e+04, 97.5th 9.363e+04] min 3.724e+04 max 1.34e+05 (n=50)
+  err_lv_myo: median -0.05195 [2.5th -0.07637, 97.5th -0.02105] min -0.07824 max -0.009969 (n=50)
+  err_lv_cav: median -0.07022 [2.5th -0.1225, 97.5th -0.02594] min -0.1501 max -0.02373 (n=50)
+  smoke_act_max_ms: median 76.99 [2.5th 60.61, 97.5th 90.95] min 55.16 max 121.8 (n=50)
+  icp_rot_deg: median 16.56 [2.5th 1.896, 97.5th 26.66] min 1.407 max 30.71 (n=50)
+  icp_rms_mm: median 5 [2.5th 4.026, 97.5th 6.924] min 3.804 max 8.531 (n=50)
+  frame_rms_mm: median 7.105 [2.5th 5.897, 97.5th 10.07] min 4.853 max 10.6 (n=50)
+  nonmanifold_edges: median 12 [2.5th 2.675, 97.5th 42.95] min 0 max 237 (n=50)
+  endo_frac: median 0.4148 [2.5th 0.2727, 97.5th 0.6186] min 0.192 max 0.6511 (n=50)
+  outside_nodes: median 2004 [2.5th 1053, 97.5th 3369] min 1018 max 4566 (n=50)
+  total_s: median 47.75 [2.5th 42.3, 97.5th 57.64] min 41.7 max 86.9 (n=50)
+by group (meshing-only pass): {"sum": {"DCM": 10, "HCM": 10, "MINF": 10, "NOR": 10, "RV": 10}, "count": {"DCM": 10, "HCM": 10, "MINF": 10, "NOR": 10, "RV": 10}}
+networks at 1.5 mm (all hearts attempted):
+                     attempted  mesh_ok  mesh_and_smoke
+source                                                 
+cinema_acdc_sax             50       50              50
+nnunet_task027_acdc         50       50              50
+nnunet_task114_mnms         50       50              50
+nnunet_ukb_sax              50       49              49
+ukbb_cardiac_fcn_sa         50       46              46
+network fail codes: [["nnunet_ukb_sax", "F6", 1], ["ukbb_cardiac_fcn_sa", "F1", 2], ["ukbb_cardiac_fcn_sa", "F2", 1], ["ukbb_cardiac_fcn_sa", "F3", 1]]
+trio S x M:
+                                name status fail_code  n_nodes  err_lv_myo  err_lv_cav  smoke_act_max_ms  total_s
+    patient101__cinema_acdc_sax__1.0   pass       NaN 210050.0   -0.040911   -0.064033         74.120110     91.2
+    patient101__cinema_acdc_sax__1.5   pass       NaN  67207.0   -0.038209   -0.061492         71.889343     51.7
+             patient101__expert__1.0   pass       NaN 210961.0   -0.039037   -0.064134         74.172401     89.7
+             patient101__expert__1.5   pass       NaN  67621.0   -0.035117   -0.062042         74.041489     46.8
+patient101__nnunet_task027_acdc__1.0   pass       NaN 209548.0   -0.038476   -0.063619         73.688370     90.1
+patient101__nnunet_task027_acdc__1.5   pass       NaN  67031.0   -0.035187   -0.060486         73.585526     49.8
+patient101__nnunet_task114_mnms__1.0   pass       NaN 211682.0   -0.036445   -0.064148         72.982361     90.5
+patient101__nnunet_task114_mnms__1.5   pass       NaN  67608.0   -0.036013   -0.061431         70.351036     50.7
+     patient101__nnunet_ukb_sax__1.0   pass       NaN 204088.0   -0.032435   -0.062928         71.888222     84.7
+     patient101__nnunet_ukb_sax__1.5   pass       NaN  66438.0   -0.030961   -0.060041         70.730225     48.3
+patient101__ukbb_cardiac_fcn_sa__1.0   pass       NaN 186715.0   -0.031322   -0.062907         69.294853     78.7
+patient101__ukbb_cardiac_fcn_sa__1.5   pass       NaN  61331.0   -0.028126   -0.059886         69.190987     48.6
+    patient102__cinema_acdc_sax__1.0   pass       NaN 125633.0   -0.083367   -0.098264         70.028198     61.5
+    patient102__cinema_acdc_sax__1.5   pass       NaN  40426.0   -0.085133   -0.093062         68.245377     45.5
+             patient102__expert__1.0   pass       NaN 120573.0   -0.067220   -0.097470         66.375519     60.2
+             patient102__expert__1.5   pass       NaN  39082.0   -0.067353   -0.091626         66.225891     42.7
+patient102__nnunet_task027_acdc__1.0   pass       NaN 124553.0   -0.079756   -0.076713         65.698982     63.1
+patient102__nnunet_task027_acdc__1.5   pass       NaN  40131.0   -0.078471   -0.072758         63.360340     44.3
+patient102__nnunet_task114_mnms__1.0   pass       NaN 127210.0   -0.064086   -0.098155         64.383736     64.8
+patient102__nnunet_task114_mnms__1.5   pass       NaN  40851.0   -0.067169   -0.092179         63.562431     44.3
+     patient102__nnunet_ukb_sax__1.0   pass       NaN 125711.0   -0.075874   -0.079163         63.598198     63.5
+     patient102__nnunet_ukb_sax__1.5   pass       NaN  40565.0   -0.076215   -0.075052         62.397923     44.7
+patient102__ukbb_cardiac_fcn_sa__1.0   pass       NaN 112448.0   -0.082617   -0.109264         64.176987     57.1
+patient102__ukbb_cardiac_fcn_sa__1.5   pass       NaN  36744.0   -0.085222   -0.103270         62.208172     43.3
+    patient104__cinema_acdc_sax__1.0   pass       NaN 226825.0   -0.053088   -0.076537         89.960045     97.1
+    patient104__cinema_acdc_sax__1.5   pass       NaN  72464.0   -0.048557   -0.075289         89.724121     52.8
+             patient104__expert__1.0   pass       NaN 222803.0   -0.056055   -0.077063         88.623352     95.5
+             patient104__expert__1.5   pass       NaN  71168.0   -0.053179   -0.075294         87.922997     51.2
+patient104__nnunet_task027_acdc__1.0   pass       NaN 216883.0   -0.053629   -0.076339         86.577293     92.4
+patient104__nnunet_task027_acdc__1.5   pass       NaN  69350.0   -0.051269   -0.075453         88.040184     50.7
+patient104__nnunet_task114_mnms__1.0   pass       NaN 218604.0   -0.051467   -0.079000         84.369873     90.6
+patient104__nnunet_task114_mnms__1.5   pass       NaN  69848.0   -0.048425   -0.077569         84.741989     52.3
+     patient104__nnunet_ukb_sax__1.0   pass       NaN 204730.0   -0.046151   -0.077842         82.345924     84.3
+     patient104__nnunet_ukb_sax__1.5   pass       NaN  65775.0   -0.045783   -0.075798         83.242607     50.6
+patient104__ukbb_cardiac_fcn_sa__1.0   pass       NaN 194300.0   -0.003904   -0.046400         91.664734     81.6
+patient104__ukbb_cardiac_fcn_sa__1.5   pass       NaN  62776.0   -0.003663   -0.048054         92.784081     47.6

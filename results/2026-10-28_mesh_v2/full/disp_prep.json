@@ -1,0 +1,17 @@
+{
+ "surface": {
+  "n_boundary_faces": 579208,
+  "n_components": 559,
+  "n_outer_faces": 555772,
+  "edge_mm_median": 1.6972266716679991,
+  "edge_mm_p2_5": 1.0989188178036822,
+  "edge_mm_p97_5": 2.518423241478744
+ },
+ "n_draws": 18000,
+ "n_unique_nodes": 5813,
+ "n_U": 601477,
+ "snap_mm_median": 0.6150445112634642,
+ "snap_mm_max": 1.2730195397462367,
+ "walk_vs_target_ratio_median": 0.9991222939098706,
+ "prep_s": 285.0542092323303
+}

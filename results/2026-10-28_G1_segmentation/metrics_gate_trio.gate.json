@@ -1,0 +1,16 @@
+{
+ "gate_pids": [
+  "patient101",
+  "patient102",
+  "patient104"
+ ],
+ "usable_by_network": {
+  "nnunet_task027_acdc": true,
+  "nnunet_task114_mnms": true,
+  "nnunet_ukb_sax": true,
+  "cinema_acdc_sax": true,
+  "ukbb_cardiac_fcn_sa": true
+ },
+ "n_usable": 5,
+ "G1_pass": true
+}

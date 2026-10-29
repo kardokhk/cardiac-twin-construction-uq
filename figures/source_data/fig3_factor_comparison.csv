@@ -1,0 +1,23 @@
+parameter,factor,label,stat,value,lo,hi,n,ci_method
+v_endo,construction,"Construction, A2 layer",median over hearts of between-construction CV,0.025759795151535918,0.022310440643316852,0.028644316790063684,50,"cluster bootstrap over hearts, percentile"
+v_endo,construction,"Construction, B1 layer",median over hearts of between-construction CV,0.031159970834675685,0.028041569840746607,0.03683507843654167,50,"cluster bootstrap over hearts, percentile"
+v_endo,torso,"Torso, ref 09, translation",mean absolute relative bias,0.08106720210014265,0.05913303807037513,0.10327973575790322,21,cluster bootstrap over hearts
+v_endo,torso_median,"Torso, ref 09, translation",median absolute relative bias (descriptive),0.057368868798946794,0.04162927764230897,0.10792076347215535,21,"cluster bootstrap over hearts, percentile, computed in fig3 script"
+v_endo,torso,"Torso, ref 17, translation",mean absolute relative bias,0.038535359080241076,0.026757771373926206,0.05167763208516382,21,cluster bootstrap over hearts
+v_endo,torso_median,"Torso, ref 17, translation",median absolute relative bias (descriptive),0.03298743509906057,0.018786012175710767,0.052026676676636706,21,"cluster bootstrap over hearts, percentile, computed in fig3 script"
+v_endo,torso,"Torso, ref 09, ICP",mean absolute relative bias,0.15528423046278833,0.1088046956885554,0.20125357031098748,21,cluster bootstrap over hearts
+v_endo,torso_median,"Torso, ref 09, ICP",median absolute relative bias (descriptive),0.133478115879458,0.06471688546809717,0.20270141433073466,21,"cluster bootstrap over hearts, percentile, computed in fig3 script"
+v_endo,torso,"Torso, ref 17, ICP",mean absolute relative bias,0.13282406212303,0.09683849325208965,0.1756006665455671,21,cluster bootstrap over hearts
+v_endo,torso_median,"Torso, ref 17, ICP",median absolute relative bias (descriptive),0.11108767613482327,0.06918056920863516,0.142154730122489,21,"cluster bootstrap over hearts, percentile, computed in fig3 script"
+v_endo,model_form,Model form (reaction-eikonal targets),|geometric mean ratio - 1| (signed value is negative),0.02940398928828425,0.02571333926615149,0.03308065893058143,10,t interval on log ratio over hearts
+v_t,construction,"Construction, A2 layer",median over hearts of between-construction CV,0.16084238847578092,0.12466061686326829,0.18707976586229297,50,"cluster bootstrap over hearts, percentile"
+v_t,construction,"Construction, B1 layer",median over hearts of between-construction CV,0.12972886795523997,0.11994826191302736,0.16219566146458014,50,"cluster bootstrap over hearts, percentile"
+v_t,torso,"Torso, ref 09, translation",mean absolute relative bias,0.1611730895264664,0.11693119057778847,0.20988283625576468,21,cluster bootstrap over hearts
+v_t,torso_median,"Torso, ref 09, translation",median absolute relative bias (descriptive),0.15739502745312792,0.12063957360217926,0.17270462140654255,21,"cluster bootstrap over hearts, percentile, computed in fig3 script"
+v_t,torso,"Torso, ref 17, translation",mean absolute relative bias,0.0895484364534882,0.06656046875407534,0.11880502739136616,21,cluster bootstrap over hearts
+v_t,torso_median,"Torso, ref 17, translation",median absolute relative bias (descriptive),0.07920781244552506,0.058620770423695734,0.09155995505080239,21,"cluster bootstrap over hearts, percentile, computed in fig3 script"
+v_t,torso,"Torso, ref 09, ICP",mean absolute relative bias,0.2674941569374072,0.1947704118783033,0.3512028309642123,21,cluster bootstrap over hearts
+v_t,torso_median,"Torso, ref 09, ICP",median absolute relative bias (descriptive),0.22944238971102618,0.13602638108366297,0.3191353033668872,21,"cluster bootstrap over hearts, percentile, computed in fig3 script"
+v_t,torso,"Torso, ref 17, ICP",mean absolute relative bias,0.30548330085786,0.2014695168630227,0.4273176913410796,21,cluster bootstrap over hearts
+v_t,torso_median,"Torso, ref 17, ICP",median absolute relative bias (descriptive),0.19545916476946965,0.11679662653910117,0.3983717694345375,21,"cluster bootstrap over hearts, percentile, computed in fig3 script"
+v_t,model_form,Model form (reaction-eikonal targets),|geometric mean ratio - 1| (signed value is negative),0.07070346475067824,0.0498102849312011,0.09113723635298965,10,t interval on log ratio over hearts

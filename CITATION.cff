@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Construction-stage uncertainty in ECG-calibrated cardiac digital twins: code, analysis plan and result tables"
+authors:
+  - family-names: Kakabra
+    given-names: Kardokh
+    affiliation: "RCSI University of Medicine and Health Sciences"
+version: v1.0.1
+date-released: 2026-10-29
+license: MIT
+doi: 10.5281/zenodo.23771882
+repository-code: "https://github.com/kardokhk/cardiac-twin-construction-uq"
+keywords:
+  - cardiac digital twin
+  - uncertainty quantification
+  - image segmentation
+  - eikonal model
+  - electrocardiogram
+  - openCARP

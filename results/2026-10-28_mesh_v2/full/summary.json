@@ -1,0 +1,886 @@
+{
+ "n_constructions": 800,
+ "by_set": {
+  "primary": {
+   "attempted": 500,
+   "g2_pass": 498,
+   "smoke_ok": 498,
+   "include_primary": 494,
+   "include_sensitivity": 0
+  },
+  "rv_wall_extra_1.0mm": {
+   "attempted": 100,
+   "g2_pass": 100,
+   "smoke_ok": 100,
+   "include_primary": 0,
+   "include_sensitivity": 100
+  },
+  "rv_wall_sensitivity": {
+   "attempted": 100,
+   "g2_pass": 51,
+   "smoke_ok": 51,
+   "include_primary": 0,
+   "include_sensitivity": 51
+  },
+  "ukbb_sensitivity": {
+   "attempted": 100,
+   "g2_pass": 92,
+   "smoke_ok": 92,
+   "include_primary": 0,
+   "include_sensitivity": 92
+  }
+ },
+ "by_source_resolution_rvwall": {
+  "cinema_acdc_sax|1.0|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "cinema_acdc_sax|1.0|3.0": {
+   "attempted": 50,
+   "g1_usable": 49,
+   "g2_pass": 50,
+   "included": 49,
+   "fail_codes": {},
+   "excluded_hearts": [
+    129
+   ]
+  },
+  "cinema_acdc_sax|1.0|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "cinema_acdc_sax|1.5|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 0,
+   "included": 0,
+   "fail_codes": {
+    "F3": 10
+   },
+   "excluded_hearts": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    109,
+    112,
+    119
+   ]
+  },
+  "cinema_acdc_sax|1.5|3.0": {
+   "attempted": 50,
+   "g1_usable": 49,
+   "g2_pass": 50,
+   "included": 49,
+   "fail_codes": {},
+   "excluded_hearts": [
+    129
+   ]
+  },
+  "cinema_acdc_sax|1.5|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "expert|1.0|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "expert|1.0|3.0": {
+   "attempted": 50,
+   "g1_usable": 50,
+   "g2_pass": 50,
+   "included": 50,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "expert|1.0|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "expert|1.5|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 1,
+   "included": 1,
+   "fail_codes": {
+    "F3": 9
+   },
+   "excluded_hearts": [
+    101,
+    102,
+    104,
+    105,
+    106,
+    107,
+    109,
+    112,
+    119
+   ]
+  },
+  "expert|1.5|3.0": {
+   "attempted": 50,
+   "g1_usable": 50,
+   "g2_pass": 50,
+   "included": 50,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "expert|1.5|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task027_acdc|1.0|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task027_acdc|1.0|3.0": {
+   "attempted": 50,
+   "g1_usable": 50,
+   "g2_pass": 50,
+   "included": 50,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task027_acdc|1.0|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task027_acdc|1.5|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 0,
+   "included": 0,
+   "fail_codes": {
+    "F3": 10
+   },
+   "excluded_hearts": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    109,
+    112,
+    119
+   ]
+  },
+  "nnunet_task027_acdc|1.5|3.0": {
+   "attempted": 50,
+   "g1_usable": 50,
+   "g2_pass": 50,
+   "included": 50,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task027_acdc|1.5|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task114_mnms|1.0|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task114_mnms|1.0|3.0": {
+   "attempted": 50,
+   "g1_usable": 50,
+   "g2_pass": 50,
+   "included": 50,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task114_mnms|1.0|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task114_mnms|1.5|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 0,
+   "included": 0,
+   "fail_codes": {
+    "F3": 10
+   },
+   "excluded_hearts": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    109,
+    112,
+    119
+   ]
+  },
+  "nnunet_task114_mnms|1.5|3.0": {
+   "attempted": 50,
+   "g1_usable": 50,
+   "g2_pass": 50,
+   "included": 50,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task114_mnms|1.5|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_ukb_sax|1.0|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_ukb_sax|1.0|3.0": {
+   "attempted": 50,
+   "g1_usable": 48,
+   "g2_pass": 49,
+   "included": 48,
+   "fail_codes": {
+    "F6": 1
+   },
+   "excluded_hearts": [
+    133,
+    145
+   ]
+  },
+  "nnunet_ukb_sax|1.0|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_ukb_sax|1.5|2.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 0,
+   "included": 0,
+   "fail_codes": {
+    "F3": 10
+   },
+   "excluded_hearts": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    109,
+    112,
+    119
+   ]
+  },
+  "nnunet_ukb_sax|1.5|3.0": {
+   "attempted": 50,
+   "g1_usable": 48,
+   "g2_pass": 49,
+   "included": 48,
+   "fail_codes": {
+    "F6": 1
+   },
+   "excluded_hearts": [
+    133,
+    145
+   ]
+  },
+  "nnunet_ukb_sax|1.5|4.0": {
+   "attempted": 10,
+   "g1_usable": 10,
+   "g2_pass": 10,
+   "included": 10,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "ukbb_cardiac_fcn_sa|1.0|3.0": {
+   "attempted": 50,
+   "g1_usable": 36,
+   "g2_pass": 46,
+   "included": 46,
+   "fail_codes": {
+    "F1": 2,
+    "F2": 1,
+    "F3": 1
+   },
+   "excluded_hearts": [
+    114,
+    121,
+    124,
+    125
+   ]
+  },
+  "ukbb_cardiac_fcn_sa|1.5|3.0": {
+   "attempted": 50,
+   "g1_usable": 36,
+   "g2_pass": 46,
+   "included": 46,
+   "fail_codes": {
+    "F1": 2,
+    "F2": 1,
+    "F3": 1
+   },
+   "excluded_hearts": [
+    114,
+    121,
+    124,
+    125
+   ]
+  }
+ },
+ "root_shift": {
+  "1.5": {
+   "denominator_all": 245,
+   "flagged_all": 8,
+   "denominator_primary_sources": 199,
+   "flagged_primary_sources": 3,
+   "flagged_included_primary": 3,
+   "denominator_included_primary": 197,
+   "flagged_by_source": {
+    "ukbb_cardiac_fcn_sa": 5,
+    "cinema_acdc_sax": 1,
+    "nnunet_task114_mnms": 1,
+    "nnunet_ukb_sax": 1
+   },
+   "flagged_list": [
+    [
+     "patient109__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     18.059
+    ],
+    [
+     "patient113__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     11.555
+    ],
+    [
+     "patient114__cinema_acdc_sax__1.5__rv3.0",
+     11.177
+    ],
+    [
+     "patient114__nnunet_task114_mnms__1.5__rv3.0",
+     12.185
+    ],
+    [
+     "patient114__nnunet_ukb_sax__1.5__rv3.0",
+     26.613
+    ],
+    [
+     "patient118__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     34.715
+    ],
+    [
+     "patient131__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     24.349
+    ],
+    [
+     "patient136__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     30.23
+    ]
+   ],
+   "shift_mm": {
+    "n": 245,
+    "median": 2.317,
+    "p2_5": 1.242,
+    "p97_5": 11.517200000000003,
+    "min": 0.183,
+    "max": 34.715
+   }
+  },
+  "1.0": {
+   "denominator_all": 295,
+   "flagged_all": 9,
+   "denominator_primary_sources": 249,
+   "flagged_primary_sources": 4,
+   "flagged_included_primary": 4,
+   "denominator_included_primary": 247,
+   "flagged_by_source": {
+    "ukbb_cardiac_fcn_sa": 5,
+    "nnunet_task114_mnms": 2,
+    "cinema_acdc_sax": 1,
+    "nnunet_ukb_sax": 1
+   },
+   "flagged_list": [
+    [
+     "patient109__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     18.712
+    ],
+    [
+     "patient113__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     12.505
+    ],
+    [
+     "patient114__cinema_acdc_sax__1.0__rv3.0",
+     10.589
+    ],
+    [
+     "patient114__nnunet_task114_mnms__1.0__rv3.0",
+     12.788
+    ],
+    [
+     "patient114__nnunet_ukb_sax__1.0__rv3.0",
+     26.241
+    ],
+    [
+     "patient118__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     29.146
+    ],
+    [
+     "patient131__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     24.627
+    ],
+    [
+     "patient133__nnunet_task114_mnms__1.0__rv3.0",
+     10.168
+    ],
+    [
+     "patient136__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     29.73
+    ]
+   ],
+   "shift_mm": {
+    "n": 295,
+    "median": 2.264,
+    "p2_5": 0.829,
+    "p97_5": 10.44164999999999,
+    "min": 0.559,
+    "max": 29.73
+   }
+  }
+ },
+ "endo_layer": {
+  "1.5": {
+   "all_vol_frac_a2": {
+    "n": 295,
+    "median": 0.44924154468398336,
+    "p2_5": 0.28120285325297745,
+    "p97_5": 0.6800579404005019,
+    "min": 0.19142115468818416,
+    "max": 0.7260734732824428
+   },
+   "all_vol_frac_onevoxel": {
+    "n": 295,
+    "median": 0.4128157261190679,
+    "p2_5": 0.2584440334795948,
+    "p97_5": 0.6357741133059559,
+    "min": 0.17513292049790452,
+    "max": 0.6770912849872773
+   },
+   "expert_vol_frac_a2": {
+    "n": 50,
+    "median": 0.45023443455608947,
+    "p2_5": 0.29676931274227025,
+    "p97_5": 0.6636912264746153,
+    "min": 0.21043148454973468,
+    "max": 0.7024962292609352
+   },
+   "expert_vol_frac_onevoxel": {
+    "n": 50,
+    "median": 0.4148497702577862,
+    "p2_5": 0.2727162110195415,
+    "p97_5": 0.6185682315504474,
+    "min": 0.19202298240314408,
+    "max": 0.651131221719457
+   },
+   "trio": [
+    [
+     "patient101__cinema_acdc_sax__1.5__rv3.0",
+     0.4720766939849135,
+     0.4322949501097803
+    ],
+    [
+     "patient101__expert__1.5__rv3.0",
+     0.4839256420306897,
+     0.44285963154914865
+    ],
+    [
+     "patient101__nnunet_task027_acdc__1.5__rv3.0",
+     0.4692639182599722,
+     0.4293204560814493
+    ],
+    [
+     "patient101__nnunet_task114_mnms__1.5__rv3.0",
+     0.45725871160018355,
+     0.41772337803759757
+    ],
+    [
+     "patient101__nnunet_ukb_sax__1.5__rv3.0",
+     0.5069183380981324,
+     0.4636899804155506
+    ],
+    [
+     "patient101__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     0.5837424777101554,
+     0.5374537581615779
+    ],
+    [
+     "patient102__cinema_acdc_sax__1.5__rv3.0",
+     0.4250453139993603,
+     0.39175581381573493
+    ],
+    [
+     "patient102__expert__1.5__rv3.0",
+     0.46709013457986204,
+     0.4307623679018861
+    ],
+    [
+     "patient102__nnunet_task027_acdc__1.5__rv3.0",
+     0.4412041733082163,
+     0.4062394338984689
+    ],
+    [
+     "patient102__nnunet_task114_mnms__1.5__rv3.0",
+     0.4044915775664914,
+     0.37297275334053104
+    ],
+    [
+     "patient102__nnunet_ukb_sax__1.5__rv3.0",
+     0.4477439398865649,
+     0.412491119058801
+    ],
+    [
+     "patient102__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     0.5321588366890381,
+     0.4926314317673378
+    ],
+    [
+     "patient104__cinema_acdc_sax__1.5__rv3.0",
+     0.3380725961837281,
+     0.3131425197339798
+    ],
+    [
+     "patient104__expert__1.5__rv3.0",
+     0.3469210314211552,
+     0.3222143949634763
+    ],
+    [
+     "patient104__nnunet_task027_acdc__1.5__rv3.0",
+     0.3537699774487695,
+     0.32917279471843647
+    ],
+    [
+     "patient104__nnunet_task114_mnms__1.5__rv3.0",
+     0.36141917046825023,
+     0.3359387289602014
+    ],
+    [
+     "patient104__nnunet_ukb_sax__1.5__rv3.0",
+     0.3928261950422615,
+     0.36465658072306273
+    ],
+    [
+     "patient104__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     0.4685633035415572,
+     0.4323710748936577
+    ]
+   ]
+  },
+  "1.0": {
+   "all_vol_frac_a2": {
+    "n": 295,
+    "median": 0.39401838050833976,
+    "p2_5": 0.2467236614739884,
+    "p97_5": 0.5980231907567704,
+    "min": 0.16992454079222868,
+    "max": 0.6248158975522716
+   },
+   "all_vol_frac_onevoxel": {
+    "n": 295,
+    "median": 0.26708198705410685,
+    "p2_5": 0.16708531677310914,
+    "p97_5": 0.411094774739329,
+    "min": 0.1140534871525957,
+    "max": 0.43629448038222357
+   },
+   "expert_vol_frac_a2": {
+    "n": 50,
+    "median": 0.3946417750697989,
+    "p2_5": 0.26280105397254055,
+    "p97_5": 0.5788096952644289,
+    "min": 0.18527322256009265,
+    "max": 0.6036088672119765
+   },
+   "expert_vol_frac_onevoxel": {
+    "n": 50,
+    "median": 0.2680525301861181,
+    "p2_5": 0.17830846038325776,
+    "p97_5": 0.40957181157378664,
+    "min": 0.12507285331595713,
+    "max": 0.4160542991622327
+   },
+   "trio": [
+    [
+     "patient101__cinema_acdc_sax__1.0__rv3.0",
+     0.4196156082340697,
+     0.2829959715213249
+    ],
+    [
+     "patient101__expert__1.0__rv3.0",
+     0.4291262055445725,
+     0.2901523534799673
+    ],
+    [
+     "patient101__nnunet_task027_acdc__1.0__rv3.0",
+     0.4173418966182493,
+     0.2811394064614631
+    ],
+    [
+     "patient101__nnunet_task114_mnms__1.0__rv3.0",
+     0.4051031547443823,
+     0.2730196987538024
+    ],
+    [
+     "patient101__nnunet_ukb_sax__1.0__rv3.0",
+     0.4441128618098802,
+     0.2966333933203002
+    ],
+    [
+     "patient101__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     0.5117858311238715,
+     0.34370803853496806
+    ],
+    [
+     "patient102__cinema_acdc_sax__1.0__rv3.0",
+     0.36470970353062815,
+     0.24852989691422897
+    ],
+    [
+     "patient102__expert__1.0__rv3.0",
+     0.4003099080377662,
+     0.2731502025766743
+    ],
+    [
+     "patient102__nnunet_task027_acdc__1.0__rv3.0",
+     0.37953023737525937,
+     0.25992989237926006
+    ],
+    [
+     "patient102__nnunet_task114_mnms__1.0__rv3.0",
+     0.3484318929113882,
+     0.23741591975030465
+    ],
+    [
+     "patient102__nnunet_ukb_sax__1.0__rv3.0",
+     0.386754925725651,
+     0.2642385066401475
+    ],
+    [
+     "patient102__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     0.45884048238618874,
+     0.31172828402745295
+    ],
+    [
+     "patient104__cinema_acdc_sax__1.0__rv3.0",
+     0.2923877435471646,
+     0.20366430965650606
+    ],
+    [
+     "patient104__expert__1.0__rv3.0",
+     0.297815749768516,
+     0.20898490096909736
+    ],
+    [
+     "patient104__nnunet_task027_acdc__1.0__rv3.0",
+     0.30452094306496114,
+     0.21330403356362726
+    ],
+    [
+     "patient104__nnunet_task114_mnms__1.0__rv3.0",
+     0.31383895568820397,
+     0.2193222007476203
+    ],
+    [
+     "patient104__nnunet_ukb_sax__1.0__rv3.0",
+     0.33665259243278783,
+     0.2348506795697599
+    ],
+    [
+     "patient104__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     0.3999602701628923,
+     0.2778625347636075
+    ]
+   ]
+  }
+ },
+ "node_count": {
+  "1.0|2.0": {
+   "n": 50,
+   "median": 195467.0,
+   "p2_5": 112300.525,
+   "p97_5": 227630.75,
+   "min": 110046.0,
+   "max": 233828.0
+  },
+  "1.0|3.0": {
+   "n": 295,
+   "median": 199786.0,
+   "p2_5": 110143.1,
+   "p97_5": 305652.0499999998,
+   "min": 56105.0,
+   "max": 423388.0
+  },
+  "1.0|4.0": {
+   "n": 50,
+   "median": 221584.5,
+   "p2_5": 132228.95,
+   "p97_5": 253088.35,
+   "min": 128194.0,
+   "max": 261336.0
+  },
+  "1.5|2.0": {
+   "n": 1,
+   "median": 63573.0,
+   "p2_5": 63573.0,
+   "p97_5": 63573.0,
+   "min": 63573.0,
+   "max": 63573.0
+  },
+  "1.5|3.0": {
+   "n": 295,
+   "median": 64150.0,
+   "p2_5": 36272.75,
+   "p97_5": 96989.25,
+   "min": 18417.0,
+   "max": 133954.0
+  },
+  "1.5|4.0": {
+   "n": 50,
+   "median": 70719.5,
+   "p2_5": 42573.275,
+   "p97_5": 80586.525,
+   "min": 41497.0,
+   "max": 83937.0
+  }
+ },
+ "smoke_act_max_ms": {
+  "1.0": {
+   "n": 395,
+   "median": 73.13211822509766,
+   "p2_5": 56.6892972946167,
+   "p97_5": 92.27458953857422,
+   "min": 53.2390251159668,
+   "max": 125.5182876586914
+  },
+  "1.5": {
+   "n": 346,
+   "median": 73.63698959350586,
+   "p2_5": 57.791738510131836,
+   "p97_5": 92.23829174041748,
+   "min": 53.55964279174805,
+   "max": 124.57813262939453
+  }
+ },
+ "included_but_smoke_fail": 0,
+ "gates_same_mesh": {
+  "n": 313,
+  "true": 313
+ },
+ "gates_etag_equal_onevoxel": {
+  "n": 313,
+  "true": 313
+ },
+ "gates_W_rel_maxdiff": {
+  "n": 313,
+  "median": 0.0,
+  "p2_5": 0.0,
+  "p97_5": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "gates_ref_maxdiff": {
+  "n": 50,
+  "median": 0.0,
+  "p2_5": 0.0,
+  "p97_5": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "maxrss_mb": {
+  "n": 800,
+  "median": 1692.0,
+  "p2_5": 410.5475,
+  "p97_5": 2038.3574999999983,
+  "min": 320.4,
+  "max": 3242.8
+ },
+ "total_s": {
+  "n": 800,
+  "median": 59.3,
+  "p2_5": 1.2,
+  "p97_5": 154.60999999999999,
+  "min": 0.5,
+  "max": 287.2
+ },
+ "maxrss_mb_by_res": {
+  "1.0": {
+   "n": 400,
+   "median": 1760.1,
+   "p2_5": 1636.2900000000002,
+   "p97_5": 2242.322499999999,
+   "min": 320.4,
+   "max": 3242.8
+  },
+  "1.5": {
+   "n": 400,
+   "median": 1647.35,
+   "p2_5": 394.7625,
+   "p97_5": 1741.8274999999999,
+   "min": 321.9,
+   "max": 1766.2
+  }
+ }
+}

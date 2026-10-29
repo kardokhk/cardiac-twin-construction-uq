@@ -1,0 +1,559 @@
+{
+ "n_constructions": 40,
+ "by_set": {
+  "primary": {
+   "attempted": 30,
+   "g2_pass": 30,
+   "smoke_ok": 30,
+   "include_primary": 30,
+   "include_sensitivity": 0
+  },
+  "rv_wall_sensitivity": {
+   "attempted": 4,
+   "g2_pass": 2,
+   "smoke_ok": 2,
+   "include_primary": 0,
+   "include_sensitivity": 2
+  },
+  "ukbb_sensitivity": {
+   "attempted": 6,
+   "g2_pass": 6,
+   "smoke_ok": 6,
+   "include_primary": 0,
+   "include_sensitivity": 6
+  }
+ },
+ "by_source_resolution_rvwall": {
+  "cinema_acdc_sax|1.0|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "cinema_acdc_sax|1.5|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "expert|1.0|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "expert|1.5|2.0": {
+   "attempted": 1,
+   "g1_usable": 1,
+   "g2_pass": 0,
+   "included": 0,
+   "fail_codes": {
+    "F3": 1
+   },
+   "excluded_hearts": [
+    101
+   ]
+  },
+  "expert|1.5|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "expert|1.5|4.0": {
+   "attempted": 1,
+   "g1_usable": 1,
+   "g2_pass": 1,
+   "included": 1,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task027_acdc|1.0|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task027_acdc|1.5|2.0": {
+   "attempted": 1,
+   "g1_usable": 1,
+   "g2_pass": 0,
+   "included": 0,
+   "fail_codes": {
+    "F3": 1
+   },
+   "excluded_hearts": [
+    101
+   ]
+  },
+  "nnunet_task027_acdc|1.5|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task027_acdc|1.5|4.0": {
+   "attempted": 1,
+   "g1_usable": 1,
+   "g2_pass": 1,
+   "included": 1,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task114_mnms|1.0|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_task114_mnms|1.5|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_ukb_sax|1.0|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "nnunet_ukb_sax|1.5|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "ukbb_cardiac_fcn_sa|1.0|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  },
+  "ukbb_cardiac_fcn_sa|1.5|3.0": {
+   "attempted": 3,
+   "g1_usable": 3,
+   "g2_pass": 3,
+   "included": 3,
+   "fail_codes": {},
+   "excluded_hearts": []
+  }
+ },
+ "root_shift": {
+  "1.5": {
+   "denominator_all": 15,
+   "flagged_all": 0,
+   "denominator_primary_sources": 12,
+   "flagged_primary_sources": 0,
+   "flagged_included_primary": 0,
+   "denominator_included_primary": 12,
+   "flagged_by_source": {},
+   "flagged_list": [],
+   "shift_mm": {
+    "n": 15,
+    "median": 1.564,
+    "p2_5": 1.36945,
+    "p97_5": 3.2352,
+    "min": 1.367,
+    "max": 3.294
+   }
+  },
+  "1.0": {
+   "denominator_all": 18,
+   "flagged_all": 0,
+   "denominator_primary_sources": 15,
+   "flagged_primary_sources": 0,
+   "flagged_included_primary": 0,
+   "denominator_included_primary": 15,
+   "flagged_by_source": {},
+   "flagged_list": [],
+   "shift_mm": {
+    "n": 18,
+    "median": 1.846,
+    "p2_5": 0.829,
+    "p97_5": 3.1557,
+    "min": 0.829,
+    "max": 3.273
+   }
+  }
+ },
+ "endo_layer": {
+  "1.5": {
+   "all_vol_frac_a2": {
+    "n": 18,
+    "median": 0.4525013257433742,
+    "p2_5": 0.3418331811596346,
+    "p97_5": 0.5618194302761805,
+    "min": 0.3380725961837281,
+    "max": 0.5837424777101554
+   },
+   "all_vol_frac_onevoxel": {
+    "n": 18,
+    "median": 0.41510724854819925,
+    "p2_5": 0.3169980667065158,
+    "p97_5": 0.5184042694440258,
+    "min": 0.3131425197339798,
+    "max": 0.5374537581615779
+   },
+   "expert_vol_frac_a2": {
+    "n": 3,
+    "median": 0.46709013457986204,
+    "p2_5": 0.35292948657909057,
+    "p97_5": 0.48308386665814834,
+    "min": 0.3469210314211552,
+    "max": 0.4839256420306897
+   },
+   "expert_vol_frac_onevoxel": {
+    "n": 3,
+    "median": 0.4307623679018861,
+    "p2_5": 0.3276417936103968,
+    "p97_5": 0.4422547683667855,
+    "min": 0.3222143949634763,
+    "max": 0.44285963154914865
+   },
+   "trio": [
+    [
+     "patient101__cinema_acdc_sax__1.5__rv3.0",
+     0.4720766939849135,
+     0.4322949501097803
+    ],
+    [
+     "patient101__expert__1.5__rv3.0",
+     0.4839256420306897,
+     0.44285963154914865
+    ],
+    [
+     "patient101__nnunet_task027_acdc__1.5__rv3.0",
+     0.4692639182599722,
+     0.4293204560814493
+    ],
+    [
+     "patient101__nnunet_task114_mnms__1.5__rv3.0",
+     0.45725871160018355,
+     0.41772337803759757
+    ],
+    [
+     "patient101__nnunet_ukb_sax__1.5__rv3.0",
+     0.5069183380981324,
+     0.4636899804155506
+    ],
+    [
+     "patient101__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     0.5837424777101554,
+     0.5374537581615779
+    ],
+    [
+     "patient102__cinema_acdc_sax__1.5__rv3.0",
+     0.4250453139993603,
+     0.39175581381573493
+    ],
+    [
+     "patient102__expert__1.5__rv3.0",
+     0.46709013457986204,
+     0.4307623679018861
+    ],
+    [
+     "patient102__nnunet_task027_acdc__1.5__rv3.0",
+     0.4412041733082163,
+     0.4062394338984689
+    ],
+    [
+     "patient102__nnunet_task114_mnms__1.5__rv3.0",
+     0.4044915775664914,
+     0.37297275334053104
+    ],
+    [
+     "patient102__nnunet_ukb_sax__1.5__rv3.0",
+     0.4477439398865649,
+     0.412491119058801
+    ],
+    [
+     "patient102__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     0.5321588366890381,
+     0.4926314317673378
+    ],
+    [
+     "patient104__cinema_acdc_sax__1.5__rv3.0",
+     0.3380725961837281,
+     0.3131425197339798
+    ],
+    [
+     "patient104__expert__1.5__rv3.0",
+     0.3469210314211552,
+     0.3222143949634763
+    ],
+    [
+     "patient104__nnunet_task027_acdc__1.5__rv3.0",
+     0.3537699774487695,
+     0.32917279471843647
+    ],
+    [
+     "patient104__nnunet_task114_mnms__1.5__rv3.0",
+     0.36141917046825023,
+     0.3359387289602014
+    ],
+    [
+     "patient104__nnunet_ukb_sax__1.5__rv3.0",
+     0.3928261950422615,
+     0.36465658072306273
+    ],
+    [
+     "patient104__ukbb_cardiac_fcn_sa__1.5__rv3.0",
+     0.4685633035415572,
+     0.4323710748936577
+    ]
+   ]
+  },
+  "1.0": {
+   "all_vol_frac_a2": {
+    "n": 18,
+    "median": 0.39335759794427166,
+    "p2_5": 0.294694646191239,
+    "p97_5": 0.48928405791035634,
+    "min": 0.2923877435471646,
+    "max": 0.5117858311238715
+   },
+   "all_vol_frac_onevoxel": {
+    "n": 18,
+    "median": 0.26862910269697493,
+    "p2_5": 0.20592556096435735,
+    "p97_5": 0.3301166428692741,
+    "min": 0.20366430965650606,
+    "max": 0.34370803853496806
+   },
+   "expert_vol_frac_a2": {
+    "n": 3,
+    "median": 0.4003099080377662,
+    "p2_5": 0.3029404576819785,
+    "p97_5": 0.42768539066923217,
+    "min": 0.297815749768516,
+    "max": 0.4291262055445725
+   },
+   "expert_vol_frac_onevoxel": {
+    "n": 3,
+    "median": 0.2731502025766743,
+    "p2_5": 0.21219316604947622,
+    "p97_5": 0.28930224593480264,
+    "min": 0.20898490096909736,
+    "max": 0.2901523534799673
+   },
+   "trio": [
+    [
+     "patient101__cinema_acdc_sax__1.0__rv3.0",
+     0.4196156082340697,
+     0.2829959715213249
+    ],
+    [
+     "patient101__expert__1.0__rv3.0",
+     0.4291262055445725,
+     0.2901523534799673
+    ],
+    [
+     "patient101__nnunet_task027_acdc__1.0__rv3.0",
+     0.4173418966182493,
+     0.2811394064614631
+    ],
+    [
+     "patient101__nnunet_task114_mnms__1.0__rv3.0",
+     0.4051031547443823,
+     0.2730196987538024
+    ],
+    [
+     "patient101__nnunet_ukb_sax__1.0__rv3.0",
+     0.4441128618098802,
+     0.2966333933203002
+    ],
+    [
+     "patient101__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     0.5117858311238715,
+     0.34370803853496806
+    ],
+    [
+     "patient102__cinema_acdc_sax__1.0__rv3.0",
+     0.36470970353062815,
+     0.24852989691422897
+    ],
+    [
+     "patient102__expert__1.0__rv3.0",
+     0.4003099080377662,
+     0.2731502025766743
+    ],
+    [
+     "patient102__nnunet_task027_acdc__1.0__rv3.0",
+     0.37953023737525937,
+     0.25992989237926006
+    ],
+    [
+     "patient102__nnunet_task114_mnms__1.0__rv3.0",
+     0.3484318929113882,
+     0.23741591975030465
+    ],
+    [
+     "patient102__nnunet_ukb_sax__1.0__rv3.0",
+     0.386754925725651,
+     0.2642385066401475
+    ],
+    [
+     "patient102__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     0.45884048238618874,
+     0.31172828402745295
+    ],
+    [
+     "patient104__cinema_acdc_sax__1.0__rv3.0",
+     0.2923877435471646,
+     0.20366430965650606
+    ],
+    [
+     "patient104__expert__1.0__rv3.0",
+     0.297815749768516,
+     0.20898490096909736
+    ],
+    [
+     "patient104__nnunet_task027_acdc__1.0__rv3.0",
+     0.30452094306496114,
+     0.21330403356362726
+    ],
+    [
+     "patient104__nnunet_task114_mnms__1.0__rv3.0",
+     0.31383895568820397,
+     0.2193222007476203
+    ],
+    [
+     "patient104__nnunet_ukb_sax__1.0__rv3.0",
+     0.33665259243278783,
+     0.2348506795697599
+    ],
+    [
+     "patient104__ukbb_cardiac_fcn_sa__1.0__rv3.0",
+     0.3999602701628923,
+     0.2778625347636075
+    ]
+   ]
+  }
+ },
+ "node_count": {
+  "1.0|3.0": {
+   "n": 18,
+   "median": 204409.0,
+   "p2_5": 115901.125,
+   "p97_5": 225115.65,
+   "min": 112448.0,
+   "max": 226825.0
+  },
+  "1.5|3.0": {
+   "n": 18,
+   "median": 66106.5,
+   "p2_5": 37737.65,
+   "p97_5": 71913.2,
+   "min": 36744.0,
+   "max": 72464.0
+  },
+  "1.5|4.0": {
+   "n": 2,
+   "median": 70760.0,
+   "p2_5": 70409.45,
+   "p97_5": 71110.55,
+   "min": 70391.0,
+   "max": 71129.0
+  }
+ },
+ "smoke_act_max_ms": {
+  "1.0": {
+   "n": 18,
+   "median": 70.76568603515625,
+   "p2_5": 61.33869142532349,
+   "p97_5": 88.53237323760986,
+   "min": 61.087364196777344,
+   "max": 89.19793701171875
+  },
+  "1.5": {
+   "n": 20,
+   "median": 70.62541198730469,
+   "p2_5": 60.98747806549072,
+   "p97_5": 90.16172256469726,
+   "min": 60.88480758666992,
+   "max": 91.40565490722656
+  }
+ },
+ "included_but_smoke_fail": 0,
+ "gates_same_mesh": {
+  "n": 36,
+  "true": 36
+ },
+ "gates_etag_equal_onevoxel": {
+  "n": 36,
+  "true": 36
+ },
+ "gates_W_rel_maxdiff": {
+  "n": 36,
+  "median": 0.0,
+  "p2_5": 0.0,
+  "p97_5": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "gates_ref_maxdiff": {
+  "n": 3,
+  "median": 0.0,
+  "p2_5": 0.0,
+  "p97_5": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "maxrss_mb": {
+  "n": 40,
+  "median": 1684.4499999999998,
+  "p2_5": 452.335,
+  "p97_5": 1786.815,
+  "min": 449.8,
+  "max": 1791.3
+ },
+ "total_s": {
+  "n": 40,
+  "median": 45.55,
+  "p2_5": 4.1,
+  "p97_5": 111.0275,
+  "min": 4.1,
+  "max": 112.1
+ },
+ "maxrss_mb_by_res": {
+  "1.0": {
+   "n": 18,
+   "median": 1763.35,
+   "p2_5": 1651.3500000000001,
+   "p97_5": 1789.345,
+   "min": 1643.7,
+   "max": 1791.3
+  },
+  "1.5": {
+   "n": 22,
+   "median": 1657.85,
+   "p2_5": 451.165,
+   "p97_5": 1706.31,
+   "min": 449.8,
+   "max": 1712.4
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "v_t_cv_max_pct": 64.7,
+ "v_t_cv_max_heart": 126,
+ "n_v_t_above_fibre_0p6": 26,
+ "n_primary_estimates": 1482,
+ "constructions_per_heart": {
+  "10": 47,
+  "8": 3
+ },
+ "v_t_construction_sd_median": 0.1816,
+ "armT_ref09_trans_corr_v_t_abs_median_over_hearts_pct": 15.7,
+ "armT_ref09_trans_n_hearts": 21
+}

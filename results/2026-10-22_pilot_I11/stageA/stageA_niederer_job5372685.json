@@ -1,0 +1,46 @@
+[
+ {
+  "h": 0.5,
+  "dt_us": 50.0,
+  "ranks": 4,
+  "nodes": 4305,
+  "far_corner_ms": 117.685749,
+  "max_ms": 117.685749,
+  "unactivated": 0,
+  "wall_s": 3.388749361038208,
+  "rc": 0
+ },
+ {
+  "h": 0.2,
+  "dt_us": 10.0,
+  "ranks": 8,
+  "nodes": 58176,
+  "far_corner_ms": 53.440808,
+  "max_ms": 53.440808,
+  "unactivated": 0,
+  "wall_s": 29.574073314666748,
+  "rc": 0
+ },
+ {
+  "h": 0.1,
+  "dt_us": 10.0,
+  "ranks": 16,
+  "nodes": 442401,
+  "far_corner_ms": 43.760816,
+  "max_ms": 43.760816,
+  "unactivated": 0,
+  "wall_s": 133.45394110679626,
+  "rc": 0
+ },
+ {
+  "h": 0.1,
+  "dt_us": 5.0,
+  "ranks": 16,
+  "nodes": 442401,
+  "far_corner_ms": 43.562737,
+  "max_ms": 43.562737,
+  "unactivated": 0,
+  "wall_s": 238.8825764656067,
+  "rc": 0
+ }
+]

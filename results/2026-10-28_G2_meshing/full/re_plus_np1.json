@@ -1,0 +1,40 @@
+{
+ "construction": "data/processed/acdc_mesh/cons/patient101__expert__1.5.h5",
+ "mode": "RE+",
+ "omp_threads": 1,
+ "tend_ms": 50.0,
+ "dt_us": 25.0,
+ "theta": [
+  1.55,
+  0.29
+ ],
+ "n_nodes": 67621,
+ "eikonal_wall_s": 10.440401792526245,
+ "eikonal_act_max_ms": 74.04148864746094,
+ "re_wall_s": 59.97604751586914,
+ "vm_frames": 101,
+ "re_unactivated": 6461,
+ "re_upstroke_minus_act_ms_median": 1.2098894119262695,
+ "r_vm_vs_template_eik": [
+  0.9497966539059017,
+  0.9651198824527317,
+  0.964914397827622,
+  0.9676137971987275,
+  0.9738700912965801,
+  0.9750293563940259,
+  0.9546117321611507,
+  0.9732824078531318
+ ],
+ "r_vm_vs_template_re_act": [
+  0.9497966539059017,
+  0.9651198824527317,
+  0.964914397827622,
+  0.9676137971987275,
+  0.9738700912965801,
+  0.9750293563940259,
+  0.9546117321611507,
+  0.9732824078531318
+ ],
+ "amp_ratio_vm_over_template": 1.0534714480416099,
+ "log_tail": "0\n\nLICENSE NOTICE:\nThis run uses openCARP components licensed under the Academic Public License v1.1.\nThat includes code from simulator/**, param/**, and APL-licensed parts of physics/**.\nCommercial use is not allowed without a separate commercial license.\n\n\nTimings of individual physics:\n------------------------------\n\nEikonal:\n  Init:    1.68 sec\n  Compute: 29.73 sec\n  Output:  0.04 sec\n\nMyocard Ionics:\n  Init:    0.08 sec\n  Compute: 25.65 sec\n  Output:  0.00 sec\n\n\n    *** Destroying physics ***\n\nDestroying Eikonal ..\n\nIf you publish studies based on this simulation, the following references are likely relevant:\n  openCARP framework:\n    DOI:10.1016/j.cmpb.2021.106223 (framework paper)\n    DOI:10.35097/wnkfjg829nnr380b (software release)\n  activated features:\n    DOI:10.1007/s00366-024-02094-9 (activated by phys_region[0].ptype=2)\n    DOI:10.1016/j.jcp.2017.06.020 (activated by dream.solve=1)\n  You can use https://citation.doi.org to format references in your preferred format or https://www.doi2bib.org to turn the DOIs into BibTeX format.\n\nWe'd be happy to also see your experiment published to boost its impact and foster reproducibility.\nSee https://opencarp.org/community/upload-experiment for details.\n\nL2 : Output directory exists: /dev/shm/mesh_5392520/sim_m1_np1\n\nL3 : check_unassigned_tags: 153510 element(s) in  grid carry tags {1} not assigned to any gregion_i region; these elements default to region 0.\n\nL2 : Only geometry, start time, npls, and bcl of stim[0] are used\n"
+}
